@@ -1,6 +1,7 @@
 .bg-primaryy {
   min-height: 80px;
-  padding-left: 60px;
+  padding-left: 10px;
+  background-color: #F9F7F2;
   border-bottom: 1px solid #e1e1e1;
 }
 
@@ -16,21 +17,21 @@
 }
 
 .navbar-logo h4 {
-  font-size: 25px;
+  font-size: 18px;
   font-family: 'OrganettoB';
   letter-spacing: 0.1em;
 }
 
 .navbar-logo span {
-  padding-left: 60px;
-  font-size: 13px;
+  padding-left: 45px;
+  font-size: 10px;
   font-family: 'DraftBR';
   letter-spacing: 0.1em;
 }
 
 .main-menu {
   display: flex;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 700;
   width: 500px;
   justify-content: space-between;
@@ -44,7 +45,70 @@
   color: #C1AA93;
 }
 
+
+
+@media (min-width: 575px) {
+
+  .main-menu {
+    padding-left: 30px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    width: 300px;
+    justify-content: space-between;
+  }
+
+  .bg-primaryy {
+    padding-left: 40px;
+  }
+
+  .navbar-logo h4 {
+    font-size: 19px;
+  }
+
+  .navbar-logo span {
+    font-size: 10px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 650px) {
+
+  .main-menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    width: 380px;
+
+  }
+
+  .bg-primaryy {
+    padding-left: 40px;
+  }
+
+  .navbar-logo h4 {
+    font-size: 19px;
+  }
+
+  .navbar-logo span {
+    font-size: 10px;
+    padding-left: 30px;
+  }
+}
+
 @media (min-width: 768px) {
+
+  .main-menu {
+    display: flex;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 700;
+    width: 500px;
+    justify-content: space-between;
+  }
+
+
   .bg-primaryy {
     padding-left: 40px;
   }
@@ -70,6 +134,6 @@
 
   .navbar-logo span {
     font-size: 13px;
-    padding-left: 60px;
+    padding-left: 50px;
   }
 }

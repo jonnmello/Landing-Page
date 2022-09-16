@@ -4,7 +4,7 @@ import logo from '../../assets/img/logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-md bg-primaryy">
+    <nav className="navbar navbar-expand-sm bg-primaryy">
       <div className="navbar-container container-fluid">
         <a href="link" className="navbar-logo">
           <h4 >JAYANNE MENDES</h4>

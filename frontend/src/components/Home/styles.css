@@ -1,0 +1,187 @@
+.home-img:before {
+  content: '';
+  background: url('../../assets/img/img-home-1.fw.png') no-repeat center center/cover;
+  height: 967px;
+  width: 1696px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.home-img .home-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1280px;
+  margin: auto;
+  padding: 1rem;
+
+}
+
+.home-text h4 {
+  font-size: 21px;
+}
+
+.home-text {
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 15px;
+  color: #907760;
+}
+
+.home-text span {
+
+  background-color: #E3D7BF;
+}
+
+.home-context {
+  margin-top: 15px;
+  margin-left: 30px;
+  padding: 7px;
+  font-size: 13px;
+  height: 160px;
+  background-color: rgba(171, 140, 109, .7);
+  color: #F8F7F2;
+}
+
+.home-context img {
+  width: 15px;
+  height: 15px;
+}
+
+.home-context-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-context-text p {
+  padding-left: 5px;
+}
+
+@media (min-width: 471px) {
+  .home-text h4 {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 560px) {
+  .home-text h4 {
+    font-size: 33px;
+  }
+
+}
+
+
+@media (min-width: 575px) {
+  .home-text h4 {
+    margin-left: 110px;
+    font-size: 33px;
+
+  }
+
+  .home-context {
+    margin-left: 200px;
+    font-size: 15px;
+  }
+
+}
+
+@media (min-width: 650px) {
+
+  .home-text h4 {
+    margin-left: 185px;
+
+
+  }
+
+  .home-context {
+    margin-left: 290px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 750px) {
+
+  .home-text h4 {
+    margin-left: 270px;
+
+
+  }
+
+  .home-context {
+    margin-left: 320px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .home-text h4 {
+    margin-left: 410px;
+
+
+  }
+
+  .home-context {
+    margin-left: 500px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .home-text h4 {
+    margin-left: 550px;
+
+  }
+
+  .home-context {
+    margin-left: 620px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .home-text h4 {
+    margin-left: 700px;
+
+  }
+
+  .home-context {
+    margin-left: 780px;
+    font-size: 15px;
+  }
+}
+
+
+
+
+@media (min-width: 1280px) {
+
+  .home-text h4 {
+    margin-left: 780px;
+
+  }
+
+  .home-context {
+    margin-left: 830px;
+    font-size: 15px;
+  }
+}
+
+
+
+@media (min-width: 1366px) {
+
+  .home-img:before {
+    background: url('../../assets/img/img-home.fw.png') no-repeat center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+  }
+}
