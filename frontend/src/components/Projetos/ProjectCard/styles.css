@@ -7,7 +7,7 @@
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -21,6 +21,7 @@
 
 .proj-txtx {
   position: absolute;
+  color: #F9F7F2;
   text-align: center;
   top: 65%;
   left: 50%;

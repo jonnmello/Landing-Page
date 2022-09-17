@@ -1,0 +1,21 @@
+.process {
+
+  background: url('../../assets/img/img-process.fw.png') no-repeat center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 2220px;
+}
+
+.process-text {
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+.process-text h4 {
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+  letter-spacing: 0.2em;
+}

@@ -1,6 +1,6 @@
 .projetos {
   background-color: #F9F7F2;
-  margin-top: 530px !important;
+  margin-top: 530px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
-  color: black;
+  color: #7B6653;
   width: 100%;
   font-size: 17px;
   letter-spacing: 0.8px;
@@ -71,7 +71,7 @@
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
   top: 0;
   left: 0;
   z-index: -1;
