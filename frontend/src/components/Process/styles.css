@@ -6,16 +6,59 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 2220px;
+  margin-top: 3915px;
 }
 
 .process-text {
-  padding-top: 100px;
-  padding-left: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .process-text h4 {
   font-family: 'Bebas Neue';
-  font-size: 50px;
+  font-size: 18px;
   letter-spacing: 0.2em;
+  text-align: center;
+}
+
+
+
+
+.roww {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+
+@media (min-width: 385px) {
+  .process {
+    margin-top: 3820px;
+  }
+}
+
+@media (min-width: 397px) {
+  .process {
+    margin-top: 3760px;
+  }
+}
+
+
+@media (min-width: 500px) {
+  .process {
+    margin-top: 3700px;
+  }
+}
+
+@media (min-width: 576px) {
+  .process {
+    margin-top: 2650px;
+  }
+}
+
+@media (min-width: 768px) {
+  .process {
+    margin-top: 2150px;
+  }
 }

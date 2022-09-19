@@ -1,0 +1,25 @@
+.processCard {
+  margin-bottom: 0px;
+}
+
+
+.processCard-img {
+  text-align: center;
+  padding: 2px 0;
+
+}
+
+.processCard-img img {
+  width: 20px;
+}
+
+
+.processCard-text {
+  text-align: center;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+
+.processCard-text span {
+  font-size: 12px;
+}

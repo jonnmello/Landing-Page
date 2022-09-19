@@ -3,6 +3,8 @@
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 350px;
+
 }
 
 .proj-imgbx::before {

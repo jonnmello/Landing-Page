@@ -21,10 +21,13 @@
   padding: 80px 0;
   position: relative;
   background-color: #F9F7F2;
+  max-height: 3100px;
 }
 
 .project h2 {
-  font-size: 45px;
+  font-family: 'Bebas Neue';
+  letter-spacing: 0.2em;
+  font-size: 42px;
   font-weight: 700;
   text-align: center;
 }
@@ -57,7 +60,7 @@
   padding: 17px 0;
   color: #7B6653;
   width: 100%;
-  font-size: 17px;
+  font-size: 11px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -99,4 +102,15 @@
 .nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(209, 197, 177, 1);
   border-radius: 0 55px 55px 0;
+}
+
+
+
+
+@media (min-width: 575px) {
+
+  .project .nav.nav-pills .nav-link {
+    font-size: 17px;
+  }
+
 }
