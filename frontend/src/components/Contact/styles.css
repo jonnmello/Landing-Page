@@ -1,0 +1,113 @@
+.contact {
+  padding: 100px 0;
+  overflow: hidden;
+  background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
+
+}
+
+.contact-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+}
+
+
+.contact-title h2 {
+  color: white;
+}
+
+.contact-title h2::after {
+  background: white;
+}
+
+
+.contact-title p {
+  color: white;
+}
+
+
+.contact-faq-list {
+  padding: 0 100px;
+}
+
+.contact-faq-list ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.contact-faq-list li {
+  padding: 30px;
+  background: white;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.contact-faq-list li>div {
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+.contact-faq-list li:first-child {
+
+  margin-top: 0 !important;
+}
+
+.contact-faq-icon {
+  position: absolute;
+  right: 0;
+  left: 20px;
+}
+
+.contact-faq-question {
+  color: white;
+  display: block;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-faq-arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.contact-faq-content {
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-container {
+    width: 1170px;
+  }
+
+  .contact-faq-list {
+    padding: 0;
+  }
+
+}

@@ -137,8 +137,26 @@
   }
 
   .about-img img {
-    margin-left: 150px;
+    margin-left: 80px;
 
   }
+
+  .about {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+
+@media (min-width: 1900px) {
+  .about-text {
+    width: 80%;
+  }
+
+  .about-img img {
+    margin-left: 130px;
+
+  }
+
 
 }
