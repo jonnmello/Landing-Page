@@ -1,0 +1,144 @@
+.about {
+  margin-top: auto;
+  background-color: #F9F7F2;
+}
+
+.about-img img {
+  width: 100%;
+  padding: 35px 15px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.about-container span {
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-family: 'OrganettoB';
+  letter-spacing: 0.1em;
+  color: #D0BA9B;
+}
+
+.about-text {
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(239, 234, 220, 0.9);
+
+}
+
+.about-text p {
+  margin: 0;
+  font-size: 15px;
+}
+
+.about-rede {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-rede img {
+  width: 30px;
+}
+
+
+.about-rede h2 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+
+.social-icon {
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.social-icon a {
+  width: 42px;
+  height: 42px;
+  background: rgba(226, 213, 193, 0.8);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.social-icon a::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #F3EDE4;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+
+.social-icon a img {
+  width: 40%;
+  z-index: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icon a:hover img {
+  filter: brightness(100%) saturate(50%) invert(0%) sepia(80%) saturate(50%) hue-rotate(346deg) brightness(100%) contrast(30%);
+
+}
+
+@media (min-width: 470px) {
+
+  .about-img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-img img {
+    width: 470px;
+
+  }
+
+}
+
+
+
+@media (min-width: 992px) {
+
+  .about {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .about-text {
+    margin: 5px 15px 5px 10px;
+
+  }
+
+}
+
+
+@media (min-width: 1600px) {
+  .about-text {
+    width: 70%;
+  }
+
+  .about-img img {
+    margin-left: 150px;
+
+  }
+
+}

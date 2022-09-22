@@ -29,6 +29,8 @@
   flex-direction: column;
   width: 100%;
   align-items: center;
+
+
 }
 
 
@@ -51,9 +53,23 @@
   }
 }
 
+@media (min-width: 528px) {
+  .process-text h4 {
+
+    font-size: 25px;
+  }
+}
+
 @media (min-width: 576px) {
   .process {
     margin-top: 2650px;
+  }
+}
+
+@media (min-width: 720px) {
+  .process-text h4 {
+
+    font-size: 30px;
   }
 }
 
@@ -61,4 +77,162 @@
   .process {
     margin-top: 2150px;
   }
+}
+
+@media (min-width: 820px) {
+  .process-text h4 {
+
+    font-size: 40px;
+  }
+
+  .process-text {
+    padding-top: 70px;
+
+  }
+
+  .roww {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-top: 80px;
+    background-color: rgba(249, 247, 242, .5);
+  }
+}
+
+@media (min-width: 1160px) {
+  .process-text h4 {
+
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 1240px) {
+  .process-text h4 {
+
+    font-size: 55px;
+  }
+
+  .roww {
+
+    padding: 15px 80px;
+    margin-top: 80px;
+  }
+
+}
+
+@media (min-width: 1370px) {
+  .process-text h4 {
+
+    font-size: 60px;
+  }
+
+  .roww {
+
+    padding: 15px 130px;
+    margin-top: 80px;
+  }
+
+}
+
+@media (min-width: 1500px) {
+  .process-text h4 {
+
+    font-size: 60px;
+  }
+
+  .roww {
+
+    padding: 15px 200px;
+
+  }
+
+}
+
+@media (min-width: 1500px) {
+
+  .process-text {
+    padding: 50px 50px 0px 150px;
+
+  }
+
+  .roww {
+
+    padding: 15px 250px;
+
+  }
+
+}
+
+
+@media (min-width: 1710px) {
+
+
+  .roww {
+
+    padding: 15px 300px;
+
+  }
+
+}
+
+
+@media (min-width: 1821px) {
+  .process-text {
+    padding: 50px 100px 0px 200px;
+
+  }
+
+  .roww {
+
+    padding: 15px 400px;
+
+  }
+
+}
+
+@media (min-width: 1976px) {
+  .process-text {
+    padding: 50px 200px 0px 300px;
+
+  }
+
+  .roww {
+
+    padding: 15px 500px;
+
+  }
+
+}
+
+@media (min-width: 1976px) {
+  .process-text {
+    padding: 50px 300px 0px 400px;
+
+  }
+
+  .roww {
+
+    padding: 15px 650px;
+
+  }
+
+}
+
+
+@media (min-width: 2100px) {
+  .process-text {
+    padding: 50px 400px 0px 500px;
+
+  }
+
+  .roww {
+
+    padding: 15px 700px;
+
+  }
+
 }

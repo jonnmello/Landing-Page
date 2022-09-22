@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './components/About';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Process from './components/Process';
 import { Projetos } from './components/Projetos';
+import Services from './components/Services';
 
 
 
@@ -13,7 +14,8 @@ function App() {
       <Navbar />
       <Home />
       <Projetos />
-      <Process />
+      <Services />
+      <About />
     </>
   )
 }
