@@ -2,6 +2,7 @@ bootstrap
 ityped
 react-bootstrap
 react-on-screen
+emailjs
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";

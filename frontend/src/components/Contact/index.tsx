@@ -3,8 +3,10 @@ import { FiHelpCircle } from 'react-icons/fi';
 import { FaSortDown, FaSortUp } from 'react-icons/fa';
 import { Collapse } from 'react-collapse';
 import { useState } from 'react';
-
 import './styles.css';
+import Forms from '../Forms/Forms';
+
+
 
 
 const Contact = () => {
@@ -66,7 +68,7 @@ const Contact = () => {
               <li key={question.index}>
 
                 <div className="contact-faq-icon">
-                  <FiHelpCircle size={24} color="#8577fb" />
+                  <FiHelpCircle size={24} color="#D4C098" />
                 </div>
                 <div className="contact-faq-question" onClick={() => handleCollapseClick(question.index)}>
                   {question.title}
@@ -81,6 +83,9 @@ const Contact = () => {
             ))}
           </ul>
         </div>
+      </div>
+      <div className="form">
+        <Forms />
       </div>
     </div>
 

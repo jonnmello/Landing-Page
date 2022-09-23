@@ -19,8 +19,6 @@ const Home = () => {
       ],
       placeholder: false,
     });
-
-    console.log("vamos ver");
   }, []);
 
   return (
