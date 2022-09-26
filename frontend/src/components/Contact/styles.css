@@ -2,6 +2,9 @@
   padding: 100px 0;
   overflow: hidden;
   background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
 }
 
@@ -45,7 +48,7 @@
 
 .contact-faq-list li {
   padding: 30px;
-  background: white;
+  background: #F9F7F2;
   border-radius: 5px;
   position: relative;
   margin-top: 15px;

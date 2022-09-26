@@ -3,6 +3,7 @@ ityped
 react-bootstrap
 react-on-screen
 emailjs
+react-hook-form
 
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
