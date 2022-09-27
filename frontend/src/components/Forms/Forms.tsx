@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './styles.css';
 import emailjs from '@emailjs/browser';
 import { useForm } from "react-hook-form";
-
+import { toast } from 'react-toastify';
 
 type FormData = {
   name: string;
@@ -15,7 +15,7 @@ type FormData = {
 
 const Forms = () => {
 
-  const { register, handleSubmit, formState: { errors } } = useForm<FormData>();
+  const { register, handleSubmit, formState: { errors }, setValue } = useForm<FormData>();
   const [hasError, setHasError] = useState(false);
 
   const onSubmit = (formData: FormData) => {
@@ -25,22 +25,21 @@ const Forms = () => {
       messages: formData.message,
       email: formData.email,
       phone: formData.phone
-
     }
 
-    if (formData.email !== '') {
-      emailjs.send("service_w2ob9yt", "template_uogzr2d", templateParams, "S7jqO9VwCuTP4RWQg")
-        .then((response) => {
-          setHasError(false);
-        })
-        .catch((error) => {
-          setHasError(true);
-          console.log('Erro', error);
-        });
-    } else {
-      setHasError(true);
-    }
-
+    emailjs.send("service_w2ob9yt", "template_uogzr2d", templateParams, "S7jqO9VwCuTP4RWQg")
+      .then((response) => {
+        toast.success("Formulário enviado com sucesso!")
+        setValue('email', '');
+        setValue('name', '');
+        setValue('phone', '');
+        setValue('message', '');
+        setHasError(false);
+      })
+      .catch((error) => {
+        setHasError(true);
+        console.log('Erro', error);
+      });
   };
 
 
@@ -48,7 +47,7 @@ const Forms = () => {
   return (
     <div className="form-container">
       <h1 className="form-title">Contato</h1>
-      <span>Não encontrou sua dúvida? Entre em contato! </span>
+      <span>Não encontrou sua dúvida? <br />Mande uma mensagem! </span>
       {hasError && (
         <div className="alert alert-danger">
           Erro preenchimento

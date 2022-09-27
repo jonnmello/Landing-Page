@@ -11,8 +11,8 @@
 .contact-container {
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 15px;
+  margin-left: 15px;
   padding-top: 15px;
 }
 
@@ -112,6 +112,12 @@
   .contact-container {
     width: 1170px;
   }
+
+  .contact {
+    flex-direction: row;
+
+  }
+
 
   .contact-faq-list {
     padding: 0;

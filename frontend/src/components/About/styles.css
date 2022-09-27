@@ -57,6 +57,7 @@
 .social-icon {
   display: inline-block;
   margin-left: 6px;
+  margin-bottom: 70px;
 }
 
 .social-icon a {
@@ -126,6 +127,11 @@
   .about-text {
     margin: 5px 15px 5px 10px;
 
+  }
+
+  .social-icon {
+
+    margin-bottom: 0;
   }
 
 }
