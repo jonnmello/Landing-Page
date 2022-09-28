@@ -15,7 +15,7 @@ const Contact = () => {
 
     {
       index: 0,
-      isOpened: true,
+      isOpened: false,
       title: 'What is FAQ?',
       answer:
         'A list of questions and answers relating to a particular subject, especially one giving basic information for users of a website.',
