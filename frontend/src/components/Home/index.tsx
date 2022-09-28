@@ -22,7 +22,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home-img">
+    <div className="home-img" id="home">
       <div className="home-container">
         <div className="home-text">
           <h4>O melhor lugar do mundo é aquele pensado pra <span ref={textRef} ></span></h4>

@@ -84,7 +84,7 @@ const Contact = () => {
           </ul>
         </div>
       </div>
-      <div className="form">
+      <div className="form" id="form">
         <Forms />
       </div>
     </div>

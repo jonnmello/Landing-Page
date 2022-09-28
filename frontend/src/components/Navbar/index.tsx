@@ -26,21 +26,21 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li>
-              <a href="" className="active">HOME</a>
+              <a href="#about" className="active">SOBRE</a>
             </li>
             <li>
-              <a href="">PROJETOS</a>
+              <a href="#project">PROJETOS</a>
             </li>
             <li>
-              <a href="">ORÇAMENTO</a>
+              <a href="#orcamento">ORÇAMENTO</a>
             </li>
             <li>
-              <a href="">CONTATO</a>
+              <a href="#form">CONTATO</a>
             </li>
           </ul>
         </div>
         <div className="navbar-img">
-          <img src={logo} alt="Logo" />
+          <a href="/"><img src={logo} alt="Icon" /></a>
         </div>
       </div>
     </nav>

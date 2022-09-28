@@ -10,7 +10,7 @@ const About = () => {
 
   return (
 
-    <div className="about">
+    <div className="about" id="about">
       <div className="about-img">
         <img src={Img1} alt="" />
 
