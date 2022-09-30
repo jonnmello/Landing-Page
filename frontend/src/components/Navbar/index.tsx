@@ -3,6 +3,7 @@ import 'bootstrap/js/src/collapse.js';
 import { Link } from 'react-scroll';
 import logo from '../../assets/img/logo.png';
 
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm bg-primaryy">
@@ -28,16 +29,16 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li className="nav-item">
-              <a href=""> <Link to='project' data-bs-toggle="collapse" data-bs-target=".navbar-collapse" spy={true} smooth={true} offset={-50} duration={700} >PROJETOS</Link></a>
+              <a href=""> <Link to='project' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-50} duration={700} >PROJETOS</Link></a>
             </li>
             <li className="nav-item">
-              <a href=""> <Link to='orcamento' data-bs-toggle="collapse" data-bs-target=".navbar-collapse" spy={true} smooth={true} offset={-100} duration={700} >ORÇAMENTO</Link></a>
+              <a href=""> <Link to='orcamento' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-100} duration={700} >ORÇAMENTO</Link></a>
             </li>
             <li className="nav-item">
-              <a href=""> <Link to='about' data-bs-toggle="collapse" data-bs-target=".navbar-collapse" spy={true} smooth={true} offset={-70} duration={700} >SOBRE</Link></a>
+              <a href=""> <Link to='about' className="visible-xs" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-70} duration={700} >SOBRE</Link></a>
             </li>
             <li className="nav-item">
-              <a href=""> <Link to='form' data-bs-toggle="collapse" data-bs-target=".navbar-collapse" spy={true} smooth={true} offset={-60} duration={700} >CONTATO</Link></a>
+              <a href=""> <Link to='form' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-60} duration={700} >CONTATO</Link></a>
             </li>
           </ul>
         </div>
