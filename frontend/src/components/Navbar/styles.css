@@ -3,6 +3,13 @@
   padding-left: 10px;
   background-color: #F9F7F2;
   border-bottom: 1px solid #e1e1e1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: .3s ease-in;
+  overflow: hidden;
 }
 
 .navbar-img {
@@ -39,12 +46,20 @@
 
 .main-menu a:hover {
   color: #C1AA93;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #E3D7BF;
 }
 
 .main-menu a.active {
   color: #C1AA93;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #E3D7BF;
 }
 
+.nav-item .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #E3D7BF;
+}
 
 
 @media (min-width: 575px) {
@@ -63,12 +78,12 @@
   }
 
   .navbar-logo h4 {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .navbar-logo span {
-    font-size: 10px;
-    padding-left: 30px;
+    font-size: 9px;
+    padding-left: 25px;
   }
 }
 
@@ -88,12 +103,12 @@
   }
 
   .navbar-logo h4 {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .navbar-logo span {
-    font-size: 10px;
-    padding-left: 30px;
+    font-size: 9px;
+    padding-left: 25px;
   }
 }
 
@@ -114,12 +129,12 @@
   }
 
   .navbar-logo h4 {
-    font-size: 19px;
+    font-size: 17px;
   }
 
   .navbar-logo span {
-    font-size: 10px;
-    padding-left: 30px;
+    font-size: 9px;
+    padding-left: 20px;
   }
 }
 
@@ -129,12 +144,12 @@
   }
 
   .navbar-logo h4 {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .navbar-logo span {
     font-size: 13px;
-    padding-left: 50px;
+    padding-left: 36px;
   }
 
 

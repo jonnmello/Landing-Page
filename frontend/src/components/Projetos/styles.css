@@ -114,3 +114,12 @@
   }
 
 }
+
+
+@media (min-width: 1365px) {
+
+  .projetos {
+    margin-top: 520px;
+  }
+
+}

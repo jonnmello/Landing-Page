@@ -1,14 +1,16 @@
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';
+import { Link } from 'react-scroll';
 import logo from '../../assets/img/logo.png';
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm bg-primaryy">
       <div className="navbar-container container-fluid">
+
         <a href="link" className="navbar-logo">
-          <h4 >JAYANNE MENDES</h4>
-          <span>ARQUITETURA & INTERIORES</span>
+          <Link to='home' className="navbar-logo" spy={true} smooth={true} offset={-100} duration={700} > <h4 >JAYANNE MENDES</h4>
+            <span>ARQUITETURA & INTERIORES</span></Link>
         </a>
 
         <button
@@ -25,22 +27,22 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
-            <li>
-              <a href="#about" className="active">SOBRE</a>
+            <li className="nav-item">
+              <a href=""> <Link to='project' spy={true} smooth={true} offset={-50} duration={700} >PROJETOS</Link></a>
             </li>
-            <li>
-              <a href="#project">PROJETOS</a>
+            <li className="nav-item">
+              <a href=""> <Link to='orcamento' spy={true} smooth={true} offset={-100} duration={700} >ORÇAMENTO</Link></a>
             </li>
-            <li>
-              <a href="#orcamento">ORÇAMENTO</a>
+            <li className="nav-item">
+              <a href=""> <Link to='about' spy={true} smooth={true} offset={-70} duration={700} >SOBRE</Link></a>
             </li>
-            <li>
-              <a href="#form">CONTATO</a>
+            <li className="nav-item">
+              <a href=""> <Link to='form' spy={true} smooth={true} offset={-60} duration={700} >CONTATO</Link></a>
             </li>
           </ul>
         </div>
         <div className="navbar-img">
-          <a href="/"><img src={logo} alt="Icon" /></a>
+          <a href="/"> <Link to='home' className="navbar-logo" spy={true} smooth={true} offset={-100} duration={700} ><img src={logo} alt="Icon" /></Link></a>
         </div>
       </div>
     </nav>

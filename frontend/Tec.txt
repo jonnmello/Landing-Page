@@ -6,6 +6,9 @@ emailjs
 react-hook-form
 react-toastify
 
+yarn add react-scroll @types/react-scroll
+
+
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../../assets/img/album1.fw.png";

@@ -124,6 +124,10 @@
 
   }
 
+  .about-container {
+    padding-top: 30px;
+  }
+
   .about-text {
     margin: 5px 15px 5px 10px;
 
