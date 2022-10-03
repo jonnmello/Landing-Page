@@ -14,9 +14,14 @@ function App() {
 
   return (
     <>
-
+      <ToastContainer />
       <Navbar />
-
+      <Home />
+      <Projetos />
+      <Services />
+      <About />
+      <Contact />
+      <Footer />
     </>
   )
 }
