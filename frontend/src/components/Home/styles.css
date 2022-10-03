@@ -1,6 +1,6 @@
 .home-img:before {
   content: '';
-  background: url('../../assets/img/img-home-1.fw.png') no-repeat center center/cover;
+  background: url('../../assets/img/img-home-1.jpg') no-repeat center center/cover;
   height: 967px;
   width: 1696px;
   position: fixed;
@@ -103,7 +103,7 @@
 
   .home-context {
     margin-left: 290px;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -182,7 +182,7 @@
 @media (min-width: 1366px) {
 
   .home-img:before {
-    background: url('../../assets/img/img-home.fw.png') no-repeat center;
+    background: url('../../assets/img/img-home.jpg') no-repeat center;
     height: 100%;
     width: 100%;
     position: absolute;

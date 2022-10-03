@@ -10,7 +10,7 @@ import { useAnimation } from 'framer-motion';
 const Home = () => {
 
   const initial = {
-    x: 40,
+    x: 10,
     opacity: 0,
 
   };
@@ -50,7 +50,7 @@ const Home = () => {
           className="home-text"
           initial={initial}
           animate={animation}
-          transition={{ delay: 0.2, duration: 0.6 }}>
+          transition={{ delay: 0.2, duration: 0.9 }}>
           <h4>O melhor lugar do mundo é aquele pensado pra <span ref={textRef} ></span></h4>
         </motion.div>
 
@@ -58,7 +58,7 @@ const Home = () => {
           className="home-context offset-md-2"
           initial={initial}
           animate={animation}
-          transition={{ delay: 0.6, duration: 0.5 }}
+          transition={{ delay: 0.8, duration: 0.9 }}
         >
           <div className="home-context-text">
             <img src={seta} alt="Seta" />

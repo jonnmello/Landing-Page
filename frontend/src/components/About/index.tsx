@@ -1,21 +1,55 @@
 import './styles.css';
-
+import { motion } from 'framer-motion';
+import { useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 import Img1 from "../../assets/img/jay1.fw.png";
 import Img2 from "../../assets/img/email.svg";
 import Img3 from "../../assets/img/instagram.svg";
 import Img4 from "../../assets/img/whatsapp.svg";
+import { useEffect } from 'react';
 
 const About = () => {
+
+  const initial = {
+    y: -30,
+    opacity: 0
+
+  };
+
+  const animation = useAnimation();
+  const animation1 = useAnimation();
+  const { ref, inView } = useInView({ threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        y: 0,
+        opacity: 1
+      });
+      animation1.start({
+        y: 0,
+        opacity: 1
+      });
+
+    }
+  }, [inView, animation]);
 
 
   return (
 
-    <div className="about" id="about">
-      <div className="about-img">
+    <div className="about" id="about" ref={ref}>
+      <motion.div className="about-img"
+        initial={initial}
+        animate={animation}
+        transition={{ duration: 1.8 }}>
         <img src={Img1} alt="" />
 
-      </div>
-      <div className="about-container">
+      </motion.div>
+      <motion.div className="about-container"
+        initial={initial}
+        animate={animation1}
+        transition={{ duration: 2, delay: 0.7 }}>
+
         <h1>Quem sou</h1>
         <span> Jayanne Mendes</span>
         <div className="about-text">
@@ -29,7 +63,7 @@ const About = () => {
             <a href="https://api.whatsapp.com/send?phone=557193720605&text=Escrit%C3%B3rio%20Jay%20Mendes%20-%20Arquitetura%20e%20Interiores" target="_blank"><img src={Img4} alt="Icon" /></a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
 
   )
