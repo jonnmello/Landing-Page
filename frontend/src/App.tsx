@@ -8,7 +8,7 @@ import { Projetos } from './components/Projetos';
 import Services from './components/Services';
 import { ToastContainer } from 'react-toastify';
 import Footer from './components/Footer';
-
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
 
