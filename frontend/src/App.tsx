@@ -16,7 +16,7 @@ function App() {
     <>
       <ToastContainer />
       <Navbar />
-      <Home />
+
       <Projetos />
       <Services />
       <About />
