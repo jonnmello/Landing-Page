@@ -5,7 +5,7 @@ react-on-screen
 emailjs
 react-hook-form
 react-toastify
-
+Framer-motion
 yarn add react-scroll @types/react-scroll
 
 
@@ -109,3 +109,9 @@ export const Projetos = () => {
     </div>
   )
 }
+
+
+
+
+
+04694300520

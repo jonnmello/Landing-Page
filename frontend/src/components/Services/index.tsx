@@ -1,15 +1,15 @@
 import './styles.css';
-
 import Img1 from "../../assets/img/serv1.fw.png";
 import Img2 from "../../assets/img/serv2.fw.png";
 import Img3 from "../../assets/img/serv3.fw.png";
+
 
 const Services = () => {
 
 
   return (
 
-    <div className="services" >
+    <div className="services">
       <div className="services-container" id="orcamento">
         <div className="services-title">
           <h2>Nossos Serviços</h2>
