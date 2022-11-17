@@ -1,5 +1,5 @@
 .contact {
-  padding: 100px 0;
+  padding: 45px 0;
   overflow: hidden;
   background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
   display: flex;
@@ -22,6 +22,7 @@
 }
 
 .contact-title h2 {
+  font-size: 50px;
   color: white;
 }
 
@@ -32,12 +33,9 @@
 
 .contact-title p {
   color: white;
+  font-size: 19px;
 }
 
-
-.contact-faq-list {
-  padding: 0 100px;
-}
 
 .contact-faq-list ul {
   margin-top: 0;
@@ -47,7 +45,7 @@
 }
 
 .contact-faq-list li {
-  padding: 30px;
+  padding: 21px;
   background: #F9F7F2;
   border-radius: 5px;
   position: relative;
@@ -72,7 +70,7 @@
 }
 
 .contact-faq-question {
-  color: #927963;
+  color: #75614F;
   display: block;
   position: relative;
   font-family: 'Roboto', sans-serif;
@@ -94,6 +92,7 @@
 .contact-faq-content {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  color: #626262;
 }
 
 @media (min-width: 768px) {
