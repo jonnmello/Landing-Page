@@ -1,6 +1,6 @@
 .home-img:before {
   content: '';
-  background: url('../../assets/img/img-home-1.jpg') no-repeat center center/cover;
+  background: url('../../assets/img/arquiteta-home.jpg') no-repeat center center/cover;
   height: 967px;
   width: 1696px;
   position: fixed;
@@ -185,7 +185,7 @@
 @media (min-width: 1366px) {
 
   .home-img:before {
-    background: url('../../assets/img/img-home.jpg') no-repeat center;
+    background: url('../../assets/img/arquiteta-home-pequena.jpg') no-repeat center;
     height: 100%;
     width: 100%;
     position: absolute;

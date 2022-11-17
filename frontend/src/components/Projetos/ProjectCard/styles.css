@@ -4,8 +4,15 @@
   overflow: hidden;
   margin-bottom: 24px;
   height: 350px;
-
+  max-width: 400px;
 }
+
+.jcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .proj-imgbx::before {
   content: "";

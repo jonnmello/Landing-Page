@@ -1,11 +1,23 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../../assets/img/album1.fw.png";
-import projImg2 from "../../assets/img/album2.fw.png";
-import projImg3 from "../../assets/img/album3.fw.png";
-import projImg4 from "../../assets/img/album4.fw.png";
-import projImg5 from "../../assets/img/album5.fw.png";
-import projImg6 from "../../assets/img/album6.fw.png";
+import projImg1 from "../../assets/img/recidencial-fachada-moderna-esquina-espelhada-jayarquiteta.jpg";
+import projImg2 from "../../assets/img/recidencial-fachada-moderna-jayarquiteta.jpg";
+import projImg3 from "../../assets/img/recidencial-fachada-moderna-planta-jayarquiteta.jpg";
+import projImg4 from "../../assets/img/recidencial-areagourmet-moderna-rustica-jayarquiteta.jpg";
+import projImg5 from "../../assets/img/recidencial-areagourmet-pequena-planejada-jayarquiteta.jpg";
+import projImg6 from "../../assets/img/recidencial-areagourmet-externo-pequena-jayarquiteta.jpg";
+import interiorImg1 from "../../assets/img/interiores-quarto-moderno-suite-planejado-clean-jayarquiteta.jpg";
+import interiorImg2 from "../../assets/img/interiores-quarto-bebe-begue-planejado-decorativo-jayarquiteta.jpg";
+import interiorImg3 from "../../assets/img/interiores-cozinha-moderna-preta-planejada-jayarquiteta.jpg";
+import interiorImg4 from "../../assets/img/interiores-quarto-casal-suite-planejada-moderna-jayarquiteta.jpg";
+import interiorImg5 from "../../assets/img/interiores-saladetv-moderna-preta-pequena-jayarquiteta.jpg";
+import interiorImg6 from "../../assets/img/interiores-areagourmet-preto-externo-indrustrial-jayarquiteta.jpg";
+import comercialImg1 from "../../assets/img/comercial-fachada-loja-moderna-arquitetura.jpg";
+import comercialImg2 from "../../assets/img/comercial-fachada-moderna-jayarquiteta.jpg";
+import comercialImg3 from "../../assets/img/comercial-clinica-projetos-planejada-moderna-jayarquiteta.jpg";
+import comercialImg4 from "../../assets/img/comercial-clinica-moderna-clean-branca-jayarquiteta.jpg";
+import comercialImg5 from "../../assets/img/comercial-clinica-pediatria-moderna-tematica-jayarquiteta.jpg";
+import comercialImg6 from "../../assets/img/comercial-escritorio-industrial-moderno-jayarquiteta.jpg";
 import './styles.css';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -32,17 +44,17 @@ export const Projetos = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: projImg4,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg5,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
     },
   ];
 
@@ -50,32 +62,66 @@ export const Projetos = () => {
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg4,
+      imgUrl: interiorImg1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg5,
+      imgUrl: interiorImg2,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg6,
+      imgUrl: interiorImg3,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg6,
+      imgUrl: interiorImg4,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg5,
+      imgUrl: interiorImg5,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg4,
+      imgUrl: interiorImg6,
+    },
+  ];
+
+
+  const projects3 = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: comercialImg1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: comercialImg2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: comercialImg3,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: comercialImg4,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: comercialImg5,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: comercialImg6,
     },
   ];
 
@@ -89,7 +135,7 @@ export const Projetos = () => {
                 {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                     <h2>NOSSOS PROJETOS</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p>Lorem Ipsum is simply dummy text of the <strong>printing</strong> and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                       <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                         <Nav.Item>
@@ -134,7 +180,7 @@ export const Projetos = () => {
                         <Tab.Pane eventKey="third">
                           <Row>
                             {
-                              projects2.map((project, index2) => {
+                              projects3.map((project, index2) => {
                                 return (
                                   <ProjectCard
                                     key={index2}
