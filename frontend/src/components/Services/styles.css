@@ -1,6 +1,6 @@
 .services {
-  background-color: #EDE4D8;
-  padding: 70px 0;
+  background-color: #F4EFE8;
+  padding: 50px 0;
   overflow: hidden;
   margin-top: auto;
 }
@@ -8,12 +8,12 @@
 
 .services-container {
 
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 50px;
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
 
@@ -23,13 +23,12 @@
 }
 
 .services-title h2 {
-  font-size: 30px;
+  font-size: 42px;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
   line-height: 1.2;
-  margin-top: 30px;
   font-family: 'Bebas Neue';
   letter-spacing: 0.2em;
   color: #907761;
@@ -50,8 +49,8 @@
   margin-bottom: 0;
   margin-top: 0;
   text-align: center;
-  color: #BEAC92;
-  font-size: 15px;
+  color: #8B8B8B;
+  font-size: 17px;
 }
 
 
@@ -76,7 +75,7 @@
 
 .services-planinfocontainer {
 
-  padding-top: 40px;
+  padding-top: 15px;
   border: 1px solid #E6D9C8;
   border-radius: 5px;
   width: 100%;
@@ -115,8 +114,9 @@
 
 .services-planinfocontainer p {
   font-size: 16px;
-  padding: 15px;
-
+  padding: 5px;
+  color: #907761;
+  margin-bottom: 5px;
 }
 
 .services-img {
@@ -125,7 +125,7 @@
 
 .services-planinfocontainer img {
 
-  margin: 20px 0 10px 0;
+  margin: 5px 0 5px 0;
   transition: all 0.5s ease-in-out;
 }
 
@@ -144,7 +144,7 @@
 
 .services-button {
   border-top: 1px solid #EBEAE7;
-  padding: 27px 0px;
+  padding: 10px 0px;
 }
 
 .services-button button {
