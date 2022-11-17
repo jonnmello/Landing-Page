@@ -1,5 +1,5 @@
 .projetos {
-  background-color: #F9F7F2;
+  background-color: #F4EFE8;
   margin-top: 530px;
   width: 100%;
   display: flex;
@@ -20,7 +20,7 @@
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: #F9F7F2;
+  background-color: #F4EFE8;
   max-height: 3100px;
 }
 
