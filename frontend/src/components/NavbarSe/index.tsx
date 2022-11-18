@@ -1,60 +1,8 @@
-bootstrap
-ityped
-react-bootstrap
-react-on-screen
-emailjs
-react-hook-form
-react-toastify
-Framer-motion
-yarn add react-scroll @types/react-scroll
-yarn add react-router-dom@^5.2.0 @types/react-router-dom@^5.1.7
-
--------------------------
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'react-toastify/dist/ReactToastify.css';
-import About from './components/About';
-import Contact from './components/Contact';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
-import { Projetos } from './components/Projetos';
-import Services from './components/Services';
-import { ToastContainer } from 'react-toastify';
-import Footer from './components/Footer';
-import Routes from './Routes';
-
-
-
-function App() {
-
-  return (
-
-    <Routes />
-
-  );
-}
-
-export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 import './styles.css';
 import 'bootstrap/js/src/collapse.js';
 import logo from '../../assets/img/logo.png';
 import { NavLink } from 'react-router-dom';
-
 
 
 const NavbarSe = () => {
@@ -80,7 +28,7 @@ const NavbarSe = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
-          <ul className="navbar-nav offset-md-2 main-menu">
+          <ul className="navbar-nav offset-md-2 main-menu2">
             <li className="nav-item">
               <a href=""> <NavLink to="/">PROJETOS</NavLink></a>
             </li>
@@ -88,7 +36,7 @@ const NavbarSe = () => {
               <a href=""> <NavLink to="/">ORÇAMENTO</NavLink></a>
             </li>
             <li className="nav-item">
-              <a href=""><NavLink to="/">SOBRE</NavLink></a>
+              <a href=""><NavLink to="/" className="visible-xs">SOBRE</NavLink></a>
             </li>
             <li className="nav-item">
               <a href=""> <NavLink to="/" >CONTATO</NavLink></a>
@@ -106,4 +54,3 @@ const NavbarSe = () => {
 }
 
 export default NavbarSe;
-

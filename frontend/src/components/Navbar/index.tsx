@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 import logo from '../../assets/img/logo.png';
 
 
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm bg-primaryy">
@@ -43,7 +44,9 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-img">
+
           <a href="/"> <Link to='home' className="navbar-logo" spy={true} smooth={true} offset={-100} duration={700} ><img src={logo} alt="Icon" /></Link></a>
+
         </div>
       </div>
     </nav>

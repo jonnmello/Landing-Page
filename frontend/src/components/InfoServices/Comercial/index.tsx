@@ -31,14 +31,19 @@ const Comercial = () => {
 
   return (
 
-    <div className="comercial" id="comercial" ref={ref}>
-      <h1>Comercial</h1>
-      <h2>vamos laa</h2>
-      <h3>asdasdsadasdasasasasasasasasasasasasasasas</h3>
-      <h4>asdsdd</h4>
-      <Link to="/" >
-        teste
-      </Link>
+    <div className="comercial-ct">
+      <div className="comercial-container">
+        <div className="teste">
+          <h1>Comercial</h1>
+          <h2>vamos laa</h2>
+        </div>
+        <h3>asdasdsadasdasasasasasasasasasasasasasasas</h3>
+        <h4>asdsdd</h4>
+        <Link to="/" >
+          teste
+        </Link>
+
+      </div>
     </div>
 
   )

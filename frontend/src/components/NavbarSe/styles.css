@@ -1,0 +1,156 @@
+.bg-primaryy {
+  min-height: 80px;
+  padding-left: 10px;
+  background-color: #F9F7F2;
+  border-bottom: 1px solid #e1e1e1;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transition: .3s ease-in;
+  overflow: hidden;
+}
+
+.navbar-img {
+  display: none;
+  margin-left: 100px;
+  height: 70px;
+}
+
+.navbar-img img {
+  padding-top: 7px;
+  height: 90%;
+}
+
+.navbar-logo h4 {
+  font-size: 18px;
+  font-family: 'OrganettoB';
+  letter-spacing: 0.1em;
+}
+
+.navbar-logo span {
+  padding-left: 45px;
+  font-size: 10px;
+  font-family: 'DraftBR';
+  letter-spacing: 0.1em;
+}
+
+.main-menu2 {
+  display: flex;
+  font-size: 13px;
+  font-weight: 700;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.main-menu2 a:hover {
+  color: #C1AA93;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #E3D7BF;
+}
+
+.main-menu2 a.active {
+  color: #AB8C6C;
+  padding-bottom: 2px;
+  border-bottom: none;
+}
+
+.nav-item2 .active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #E3D7BF;
+}
+
+
+@media (min-width: 575px) {
+
+  .main-menu2 {
+    padding-left: 30px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    width: 300px;
+    justify-content: space-between;
+  }
+
+  .bg-primaryy {
+    padding-left: 40px;
+  }
+
+  .navbar-logo h4 {
+    font-size: 17px;
+  }
+
+  .navbar-logo span {
+    font-size: 9px;
+    padding-left: 25px;
+  }
+}
+
+@media (min-width: 650px) {
+
+  .main-menu2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 700;
+    width: 380px;
+
+  }
+
+  .bg-primaryy {
+    padding-left: 40px;
+  }
+
+  .navbar-logo h4 {
+    font-size: 17px;
+  }
+
+  .navbar-logo span {
+    font-size: 9px;
+    padding-left: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .main-menu2 {
+    display: flex;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 700;
+    width: 500px;
+    justify-content: space-between;
+  }
+
+
+  .bg-primaryy {
+    padding-left: 40px;
+  }
+
+  .navbar-logo h4 {
+    font-size: 17px;
+  }
+
+  .navbar-logo span {
+    font-size: 9px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbar-img {
+    display: unset;
+  }
+
+  .navbar-logo h4 {
+    font-size: 24px;
+  }
+
+  .navbar-logo span {
+    font-size: 13px;
+    padding-left: 36px;
+  }
+
+
+}
