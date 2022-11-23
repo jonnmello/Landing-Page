@@ -47,7 +47,8 @@ const Comercial = () => {
         <div className="comercial-text-h">
           <h2>Terreno vazio pra construir?</h2>
           <p>Você precisa de um projeto arquitetônico! As plantas entregues nesse projeto são parte essencial para construção da sua casa ou comércio.
-
+            <br />
+            <br />
             Com eles em mãos você constroi sem imprevistos, seguindo o planejamento feito no projeto, é possível reduzir problemas como atraso na entrega da obra, retrabalho e desperdícios de materiais, por exemplo.</p>
         </div>
         <img src={Img2} alt="" />
@@ -56,8 +57,8 @@ const Comercial = () => {
         <h6>Investir em um projeto arquitetônico garante qualidade, segurança e funcionalidade!</h6>
         <p>
           Muitas pessoas ignoram esse serviço pois vêem a possibilidade da contratação de um arquiteto como um gasto a mais.
-
-          No entanto, o que elas não sabem é que esse profissional sabe fazer todos os cálculos para evitar desperdício em todas as etapas da obra.
+          <br />
+          <br />No entanto, o que elas não sabem é que esse profissional sabe fazer todos os cálculos para evitar desperdício em todas as etapas da obra.
           Começando inclusive pela análise do terreno para garantir que o projeto seja elaborado de acordo com suas imperfeições.
         </p>
         <img src={Img3} alt="" />
@@ -103,19 +104,17 @@ const Comercial = () => {
       </div>
       <div className="comercial-button">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSe44VaIEZypA8uXB1pVSSgxRE2gHxnp6KFw9aYAENgleqe2Kg/viewform" target=" _blank">  <button>
-          ORÇAMENTO
+          FAÇA UM ORÇAMENTO AGORA!
         </button>  </a>
       </div>
       <div className="comercial-final">
         <p>Cada um dos projetos de arquitetura residencial tem sua particularidade e desafio. Portanto, reformar e/ou decorar um apartamento por conta própria pode muitas vezes causar transtornos e dor de cabeça e até mesmo encarecer ainda mais a obra.
-
+          <br /><br />
           A ajuda profissional pode ser um fator decisivo para as boas escolhas. É fato que algumas pessoas podem dar conta sozinho em uma empreitada na hora de reformar ou decorar uma casa mas com certeza vão deixar de ter outros afazeres por se preocupar com algo em que não são profissionais.
-
+          <br /><br />
           Contar com ajuda com um escritório de arquitetura pode ser decisivo para as boas escolhas. É muito comum as pessoas terem algum retrabalho na obra ou fazer compras equivocadas na decoração quando não se tem a ajuda de um profissional especializado.</p>
       </div>
-      <Link to="/" >
-        teste
-      </Link>
+
 
 
     </div>

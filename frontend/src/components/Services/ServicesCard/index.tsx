@@ -22,7 +22,7 @@ const ServicesCard = ({ title, img, span, link }: Props) => {
       </div>
       <p>{span}</p>
       <div className="services-button">
-        <a href={link} target=" _blank"> <motion.button
+        <a href={link} target="_parent"> <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}>ORÇAMENTO</motion.button></a>
       </div>

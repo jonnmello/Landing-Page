@@ -35,7 +35,7 @@ const Services = () => {
       title: 'Construção',
       img: construcaoImg1,
       span: 'Projetos inteligentes para o seu negócio. Projetamos edifícios e estruturas de uso comercial, com o objetivo criar ambientes atrativos e funcionais para melhorar a experiência de compra dos consumidores.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSe44VaIEZypA8uXB1pVSSgxRE2gHxnp6KFw9aYAENgleqe2Kg/viewform'
+      link: '/servicos/projeto-arquitetonico'
     },
     {
       title: 'Interiores',

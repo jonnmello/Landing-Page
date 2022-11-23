@@ -23,9 +23,10 @@ const Routes = () => (
         <Services />
         <Footer />
       </Route>
-      <Route path="/projetos-comercial-servicos">
+      <Route path="/servicos/projeto-arquitetonico">
         <NavbarSe />
         <Comercial />
+        <Footer />
       </Route>
     </Switch>
   </BrowserRouter>
