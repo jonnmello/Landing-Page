@@ -33,13 +33,13 @@ const Navbar = () => {
               <a href=""> <Link to='project' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-50} duration={700} >PROJETOS</Link></a>
             </li>
             <li className="nav-item">
-              <a href=""> <Link to='orcamento' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-100} duration={700} >ORÇAMENTO</Link></a>
-            </li>
-            <li className="nav-item">
               <a href=""> <Link to='about' className="visible-xs" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-70} duration={700} >SOBRE</Link></a>
             </li>
             <li className="nav-item">
               <a href=""> <Link to='form' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-60} duration={700} >CONTATO</Link></a>
+            </li>
+            <li className="nav-item">
+              <a href=""> <Link to='orcamento' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-100} duration={700} >ORÇAMENTO</Link></a>
             </li>
           </ul>
         </div>

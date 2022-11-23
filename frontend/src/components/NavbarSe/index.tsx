@@ -33,13 +33,13 @@ const NavbarSe = () => {
               <a href=""> <NavLink to="/">PROJETOS</NavLink></a>
             </li>
             <li className="nav-item">
-              <a href=""> <NavLink to="/">ORÇAMENTO</NavLink></a>
-            </li>
-            <li className="nav-item">
               <a href=""><NavLink to="/" className="visible-xs">SOBRE</NavLink></a>
             </li>
             <li className="nav-item">
               <a href=""> <NavLink to="/" >CONTATO</NavLink></a>
+            </li>
+            <li className="nav-item">
+              <a href=""> <NavLink to="/">ORÇAMENTO</NavLink></a>
             </li>
           </ul>
         </div>
