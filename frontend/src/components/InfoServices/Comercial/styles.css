@@ -330,8 +330,12 @@
   }
 
   .comercial-list {
-    padding: 5px 32%;
+    padding: 5px 25%;
 
+  }
+
+  .comercial-container-list {
+    width: 35%;
   }
 }
 

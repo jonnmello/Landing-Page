@@ -41,7 +41,7 @@ const Services = () => {
       title: 'Interiores',
       img: interioresImg3,
       span: 'Projetos bem solucionados e criativos para sua casa. Alinhamos custo, benefício, estética e funcionalidade para os ambientes projetados, de acordo com as necessidades e desejos apresentados pelo cliente.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLSchctltvQQUoNZQK5wdibhsvElqRZhel7Co0cIGbhm1wVm_zQ/viewform'
+      link: '/servicos/projeto-interiores'
     },
     {
       title: 'Reforma',

@@ -4,6 +4,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Comercial from './components/InfoServices/Comercial';
+import Interiores from './components/InfoServices/Interiores';
 import Navbar from './components/Navbar';
 import NavbarSe from './components/NavbarSe';
 import { Projetos } from './components/Projetos';
@@ -26,6 +27,11 @@ const Routes = () => (
       <Route path="/servicos/projeto-arquitetonico">
         <NavbarSe />
         <Comercial />
+        <Footer />
+      </Route>
+      <Route path="/servicos/projeto-interiores">
+        <NavbarSe />
+        <Interiores />
         <Footer />
       </Route>
     </Switch>
