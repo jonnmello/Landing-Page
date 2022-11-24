@@ -114,9 +114,10 @@
 
 .services-planinfocontainer p {
   font-size: 16px;
-  padding: 5px;
+  padding: 5px 20px;
   color: #907761;
   margin-bottom: 5px;
+  text-align: justify;
 }
 
 .services-img {

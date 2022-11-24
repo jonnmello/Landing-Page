@@ -69,17 +69,17 @@ const Interiores = () => {
 
           <li className="comercial-list">
             <img src={Img5} alt="" />
-            <p>Facilidade</p>
+            <p>Ergonomia</p>
           </li>
 
           <li className="comercial-list">
             <img src={Img5} alt="" />
-            <p>Tudo dentro do seu orçamento</p>
+            <p>Mais conforto</p>
           </li>
 
           <li className="comercial-list">
             <img src={Img5} alt="" />
-            <p>Satisfação garantida</p>
+            <p>Para suas necessidades</p>
           </li>
 
           <li className="comercial-list  ">
@@ -99,7 +99,7 @@ const Interiores = () => {
         </ul>
         <div className="comercial-img-text">
           <img src={Img4} alt="" />
-          <p>Do seu jeito!</p>
+          <p>Ideal para você!</p>
         </div>
       </div>
       <div className="comercial-button">

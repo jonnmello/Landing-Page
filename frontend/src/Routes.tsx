@@ -3,8 +3,9 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Comercial from './components/InfoServices/Comercial';
+import Arquitetonico from './components/InfoServices/Arquitetonico';
 import Interiores from './components/InfoServices/Interiores';
+import Reforma from './components/InfoServices/Reforma';
 import Navbar from './components/Navbar';
 import NavbarSe from './components/NavbarSe';
 import { Projetos } from './components/Projetos';
@@ -26,12 +27,17 @@ const Routes = () => (
       </Route>
       <Route path="/servicos/projeto-arquitetonico">
         <NavbarSe />
-        <Comercial />
+        < Arquitetonico />
         <Footer />
       </Route>
       <Route path="/servicos/projeto-interiores">
         <NavbarSe />
         <Interiores />
+        <Footer />
+      </Route>
+      <Route path="/servicos/projeto-reforma">
+        <NavbarSe />
+        <Reforma />
         <Footer />
       </Route>
     </Switch>

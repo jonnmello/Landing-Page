@@ -32,22 +32,22 @@ const Services = () => {
 
   const serviceCardT = [
     {
-      title: 'Construção',
+      title: 'Projeto Arquitetônico',
       img: construcaoImg1,
-      span: 'Projetos inteligentes para o seu negócio. Projetamos edifícios e estruturas de uso comercial, com o objetivo criar ambientes atrativos e funcionais para melhorar a experiência de compra dos consumidores.',
+      span: 'O serviço que você precisa para você construir sua casa ou seu comércio do zero. Você tem um terreno vazio e gostaria de um projeto pra pensarmos em todo o funcionamento do espaço, onde irá ficar posicionada cada ambiente, como será a fachada, onde irá ficar cada cômodo, cada porta e janela? Esse serviço é pra você.',
       link: '/servicos/projeto-arquitetonico'
     },
     {
-      title: 'Interiores',
+      title: 'Projeto Interiores',
       img: interioresImg3,
-      span: 'Projetos bem solucionados e criativos para sua casa. Alinhamos custo, benefício, estética e funcionalidade para os ambientes projetados, de acordo com as necessidades e desejos apresentados pelo cliente.',
+      span: 'A estrutura está pronta, agora você precisa de um projeto para a parte interna dos ambientes, seja comerciais ou residências, esse projeto tem o poder de trazer vida pro seu espaço! nele vamos te ajudar na escolha de acabamentos, iluminação, vamos desenhar os móveis, as bancadas e deixar seu espaço aconchegante!',
       link: '/servicos/projeto-interiores'
     },
     {
-      title: 'Reforma',
+      title: 'Projeto Reforma',
       img: reformaImg2,
-      span: 'Projetar ambientes através da arte, decoração, psicologia das cores e funcionalidade dos espaços. Estudamos, planejamos e projetamos ambientes internos do seu negócio e do seu lar.',
-      link: 'https://docs.google.com/forms/d/e/1FAIpQLScyEZKIhv3xQfktNcCZUdUZ1BlO2pUvsRVxeyBdmxSVXXYH8Q/viewform'
+      span: 'Você já tem um imóvel, seja casa ou comércio, mas não está satisfeito com o funcionamento dele. ambientes pequenos demais, sem ventilação, iluminação, precisamos mudar isso! nesse serviço também oferecemos reforma de fachadas. vamos reformar e trazer mais qualidade de vida pra você e sua família.',
+      link: '/servicos/projeto-reforma'
     }
   ]
 
