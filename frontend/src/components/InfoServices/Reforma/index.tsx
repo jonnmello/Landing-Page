@@ -34,17 +34,32 @@ const Reforma = () => {
 
   return (
 
-    <div className="comercial-ct reforma1">
-      <div className="comercial-container">
+    <div className="comercial-ct reforma1" ref={ref}>
+      <motion.div
+        className="comercial-container"
+        initial={initial}
+        animate={animation}
+        transition={{ delay: 0.2, duration: 0.9 }}>
         <img src={Img1} alt="" />
         <div className="comercial-title reforma2">
           <h1> PROJETO REFORMA</h1>
           <p>Vamos deixar do seu jeito</p>
         </div>
-      </div>
+      </motion.div>
       <div className="comercial-text">
 
-        <div className="comercial-text-h">
+        <motion.div
+          className="comercial-text-h"
+          initial={{
+            y: -20,
+            opacity: 0
+          }}
+          animate={{
+            y: 0,
+            opacity: 1
+          }}
+          transition={{ delay: 0.8, duration: 0.9 }}
+        >
           <h2>Transformação é aqui</h2>
           <p>Você tem uma casa, um comércio, um espaço, um ambiente que não está satisfeito?
             <br />
@@ -54,7 +69,7 @@ const Reforma = () => {
             <br />
             Vamos te ajudar!
           </p>
-        </div>
+        </motion.div>
         <img src={Img2} alt="" />
       </div>
       <div className="comercial-text2 reforma3">

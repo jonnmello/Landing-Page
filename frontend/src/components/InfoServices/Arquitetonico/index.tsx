@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 const Arquitetonico = () => {
 
   const initial = {
-    y: -30,
+    x: -30,
     opacity: 0
 
   };
@@ -21,10 +21,11 @@ const Arquitetonico = () => {
   const animation = useAnimation();
   const { ref, inView } = useInView({ threshold: 0.2 });
 
+
   useEffect(() => {
     if (inView) {
       animation.start({
-        y: 0,
+        x: 0,
         opacity: 1
       });
 
@@ -34,23 +35,38 @@ const Arquitetonico = () => {
 
   return (
 
-    <div className="comercial-ct">
-      <div className="comercial-container">
+    <div className="comercial-ct" ref={ref}>
+      <motion.div
+        className="comercial-container"
+        initial={initial}
+        animate={animation}
+        transition={{ delay: 0.2, duration: 0.9 }}>
         <img src={Img1} alt="" />
         <div className="comercial-title">
           <h1> PROJETO ARQUITETÔNICO</h1>
           <p>Transforme sua residência em referência conceitual</p>
         </div>
-      </div>
+      </motion.div>
       <div className="comercial-text">
 
-        <div className="comercial-text-h">
+        <motion.div
+          className="comercial-text-h"
+          initial={{
+            y: -20,
+            opacity: 0
+          }}
+          animate={{
+            y: 0,
+            opacity: 1
+          }}
+          transition={{ delay: 0.8, duration: 0.9 }}
+        >
           <h2>Terreno vazio pra construir?</h2>
           <p>Você precisa de um projeto arquitetônico! As plantas entregues nesse projeto são parte essencial para construção da sua casa ou comércio.
             <br />
             <br />
             Com eles em mãos você constroi sem imprevistos, seguindo o planejamento feito no projeto, é possível reduzir problemas como atraso na entrega da obra, retrabalho e desperdícios de materiais, por exemplo.</p>
-        </div>
+        </motion.div>
         <img src={Img2} alt="" />
       </div>
       <div className="comercial-text2">

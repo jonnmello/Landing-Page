@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 const Interiores = () => {
 
   const initial = {
-    y: -30,
+    x: -30,
     opacity: 0
 
   };
@@ -24,7 +24,7 @@ const Interiores = () => {
   useEffect(() => {
     if (inView) {
       animation.start({
-        y: 0,
+        x: 0,
         opacity: 1
       });
 
@@ -34,23 +34,38 @@ const Interiores = () => {
 
   return (
 
-    <div className="comercial-ct interior1">
-      <div className="comercial-container">
+    <div className="comercial-ct interior1" ref={ref}>
+      <motion.div
+        className="comercial-container"
+        initial={initial}
+        animate={animation}
+        transition={{ delay: 0.2, duration: 0.9 }}>
         <img src={Img1} alt="" />
         <div className="comercial-title interior2">
           <h1> PROJETO INTERIORES</h1>
           <p>Conforto e qualidade para o seu lar</p>
         </div>
-      </div>
+      </motion.div>
       <div className="comercial-text">
 
-        <div className="comercial-text-h">
+        <motion.div
+          className="comercial-text-h"
+          initial={{
+            y: -20,
+            opacity: 0
+          }}
+          animate={{
+            y: 0,
+            opacity: 1
+          }}
+          transition={{ delay: 0.8, duration: 0.9 }}
+        >
           <h2>Sua casa em todos os detalhes</h2>
           <p>Nesse serviço além de pensarmos no piso, forro, pintura, iluminação, pontos hidráulicos, pontos elétricos e bancadas, também faremos todo desenho de móveis (sim, desenhamos todos os móveis planejados pra que fiquem bem modernos, atuais e funcionais).
             <br />
             <br />
             Além disso auxiliamos na escolha de todos os outros móveis, como sofá, poltronas, mesas e também na decoração, como tapetes, cortinas, quadros, espelhos, papel de parede e etc.</p>
-        </div>
+        </motion.div>
         <img src={Img2} alt="" />
       </div>
       <div className="comercial-text2 interior3">

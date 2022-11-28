@@ -39,7 +39,7 @@ const NavbarSe = () => {
               <a href=""> <NavLink to="/" >CONTATO</NavLink></a>
             </li>
             <li className="nav-item">
-              <a href=""> <NavLink to="/">ORÇAMENTO</NavLink></a>
+              <a href=""> <NavLink to="/">SERVIÇOS</NavLink></a>
             </li>
           </ul>
         </div>
