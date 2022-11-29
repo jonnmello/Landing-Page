@@ -16,36 +16,36 @@ const Contact = () => {
     {
       index: 0,
       isOpened: false,
-      title: 'What is FAQ?',
+      title: 'Qual a vantagem de contratar a Jay Arquiteta?',
       answer:
         'A list of questions and answers relating to a particular subject, especially one giving basic information for users of a website.',
     },
     {
       index: 1,
       isOpened: false,
-      title: 'What is Styled Components?',
+      title: 'Quanto custa o m²?',
       answer:
-        'React Library that help you to create styles with javascript files. In Style Components you will create React Components to style your page.',
+        'Nós não cobramos por m² pois cada projeto requer uma necessidade e um grau de dificuldade diferente, não achamos justo ter um preço fixo para diferentes serviços, por isso nosso orçamento é personalizado.',
     },
     {
       index: 2,
       isOpened: false,
-      title: 'What is Context API?',
+      title: 'Como funciona o projeto a distância?',
       answer:
-        'The Context API is a component structure provided by the React framework, which enables us to share specific forms of data across all levels of the application.',
+        'O projeto a distância funciona da mesma forma que o presencial, a diferença é que não vou tirar as medidas pessoalmente, mas vou te direcionar para pegar as informações que preciso, as etapas continuam da mesma forma, faremos reuniões on-line e com o projeto executivo que entrego, você consegue executar tranquilamente a distância.',
     },
     {
       index: 3,
       isOpened: false,
-      title: 'what is lorem ipsum?',
+      title: 'Vocês parcelam o Projeto?',
       answer:
-        'The expression Lorem ipsum in graphic design and publishing is a standard Latin text used in graphic production to fill the text spaces in publications to test and adjust visual aspects before using real content.',
+        'Sim, parcelamos no cartão até 5x sem juros',
     },
     {
       index: 4,
       isOpened: false,
-      title: 'How to Contact the Developer?',
-      answer: 'Follow me in Social Media (GitHub, Linkedin)',
+      title: 'Posso contratar o projeto completo e ir fazendo aos poucos?',
+      answer: 'Sim, claro! O projeto funciona como um mapa guia, onde você terá todas as medidas e informações que precisa em mão e você pode executar conforme a sua prioridade.',
     },
   ]);
 
@@ -60,7 +60,7 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-title">
           <h2>FAQ</h2>
-          <p>Frequently Asked Questions</p>
+          <p>Perguntas Frequentes</p>
         </div>
         <div className="contact-faq-list">
           <ul>
