@@ -53,10 +53,27 @@ const About = () => {
         <h1>Quem sou</h1>
         <span> Jayanne Mendes</span>
         <div className="about-text">
-          <p>Lorem Ipsum is simply dummy <strong>text of the printing</strong> and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p>
+            <strong> - Arquiteta e Urbanista
+              <br />
+              - Especialista em Designer de Interiores</strong>
+            <br />
+            <br />
+
+            O escritório Jayanne Mendes apresenta soluções inteligentes que resultam em ambientes funcionais, com <strong>design e estilo</strong>, sempre ligado nas inovações em materiais e tendências, para oferecer o que há de mais <strong>atual</strong> a seus clientes.
+            <br />
+            <br />
+            Idealizamos um projeto que tenha o melhor <strong>aproveitamento de espaço</strong>, no melhor custo benefício dos materiais e acabamentos utilizados, dentro do orçamento acordado.
+            Assim é possível concretizar os sonhos dentro da <strong>realidade e necessidade do cliente</strong>.
+            <br />
+            <br />
+            Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Salvador</strong> e mundo.
+            <br />
+            PROJETOS | REFORMAS | AMBIENTES PLANEJADOS
+          </p>
         </div>
         <div className="about-rede">
-          <h2>Confira minhas redes</h2>
+          <h2>Confira meus contatos</h2>
           <div className="social-icon">
             <a href="mailto:jayarquiteta@gmail.com?subject=Preciso%20de%20ajuda"><img src={Img2} alt="Icon" /></a>
             <a href="https://www.instagram.com/jayarquiteta/" target="_blank"><img src={Img3} alt="Icon" /></a>
