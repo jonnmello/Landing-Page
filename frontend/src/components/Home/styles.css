@@ -25,7 +25,7 @@
 }
 
 .home-text h4 {
-  font-size: 25px;
+  font-size: 17.3px;
 }
 
 .home-text {
@@ -44,10 +44,10 @@
   margin-top: 40px;
   margin-left: 30px;
   padding: 7px;
-  padding-top: 15px;
+  padding-top: 5px;
   padding-left: 15px;
   font-size: 13px;
-  height: 160px;
+  height: 110px;
   background-color: rgba(171, 140, 109, .7);
   color: #F8F7F2;
 }
@@ -57,19 +57,43 @@
   height: 15px;
 }
 
-.home-context-text {
-
-  display: flex;
-  flex-direction: row;
+.home-context h1 {
+  font-size: 14.5px;
+  font-weight: 400;
 }
 
-.home-context-text p {
-  padding-left: 5px;
+@media (min-width: 350px) {
+  .home-text h4 {
+    font-size: 19.3px;
+  }
+
+  .home-context {
+    height: 120px;
+
+  }
+
+}
+
+@media (min-width: 390px) {
+  .home-text h4 {
+    font-size: 22px;
+  }
+
+  .home-context {
+    height: 100px;
+
+  }
+
 }
 
 @media (min-width: 471px) {
   .home-text h4 {
     font-size: 30px;
+  }
+
+  .home-context h1 {
+    font-size: 16px;
+
   }
 
 }
@@ -85,14 +109,17 @@
 @media (min-width: 575px) {
   .home-text h4 {
     margin-left: 110px;
-    font-size: 33px;
+    font-size: 27.3px;
 
   }
 
   .home-context {
     margin-left: 200px;
     font-size: 15px;
+    height: 140px;
   }
+
+
 
 }
 

@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="navbar-container container-fluid">
 
         <a href="link" className="navbar-logo">
-          <Link to='home' className="navbar-logo" spy={true} smooth={true} offset={-100} duration={700} > <h4 >JAYANNE MENDES</h4>
+          <Link to='home' className="navbar-logo" spy={true} smooth={true} offset={-100} duration={700} > <h4 >JAY MENDES</h4>
             <span>ARQUITETURA & INTERIORES</span></Link>
         </a>
 

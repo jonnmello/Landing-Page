@@ -11,7 +11,7 @@ const NavbarSe = () => {
       <div className="navbar-container container-fluid">
 
         <a href="link" className="navbar-logo">
-          <NavLink to="/"> <h4 >JAYANNE MENDES</h4>
+          <NavLink to="/"> <h4 >JAY MENDES</h4>
             <span>ARQUITETURA & INTERIORES</span></NavLink>
         </a>
 

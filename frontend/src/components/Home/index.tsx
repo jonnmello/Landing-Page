@@ -24,10 +24,11 @@ const Home = () => {
     init(textRef?.current as unknown as Element, {
       backDelay: 1200,
       showCursor: true,
-      typeSpeed: 100,
+      typeSpeed: 250,
       strings: [
         "Você",
-        "Familia",
+        "sua Família",
+        "seu Negócio",
       ],
       placeholder: false,
     });
@@ -55,27 +56,17 @@ const Home = () => {
         </motion.div>
 
         <motion.div
-          className="home-context offset-md-2"
+          className="home-context"
           initial={initial}
           animate={animation}
           transition={{ delay: 0.8, duration: 0.9 }}
         >
-          <div className="home-context-text">
-            <img src={seta} alt="Seta" />
-            <p>Projetos 100% online</p>
-          </div>
-          <div className="home-context-text">
-            <img src={seta} alt="Seta" />
-            <p>Projetos personalizados</p>
-          </div>
-          <div className="home-context-text">
-            <img src={seta} alt="Seta" />
-            <p>Veja seu ambiente em 3D</p>
-          </div>
-          <div className="home-context-text">
-            <img src={seta} alt="Seta" />
-            <p>Lista de todos os itens utilizados no projeto</p>
-          </div>
+          <h1>
+            <strong>Escritório de arquitetura e interiores</strong> com atendimento presencial em <strong>Cansanção-BA e região</strong>.
+            <br />
+            <br />
+            Também a distância <strong>onde você estiver!</strong>
+          </h1>
         </motion.div>
       </div>
     </div >
