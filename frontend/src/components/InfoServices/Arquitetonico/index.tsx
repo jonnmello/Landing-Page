@@ -2,13 +2,13 @@ import './styles.css';
 import { motion } from 'framer-motion';
 import { useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import Img1 from "../../../assets/img/comercialfrente.fw.png";
-import Img2 from "../../../assets/img/comercial-img1.fw.png";
-import Img3 from "../../../assets/img/comercial-img2.fw.png";
-import Img4 from "../../../assets/img/imgmao.fw.png";
-import Img5 from "../../../assets/img/seta1.fw.png";
+import ImgTop from "../../../assets/img/desenho-arquitetonico.png";
+import arquitetonicoFachada from "../../../assets/img/projeto-arquitetonico-residencial-esquina.png";
+import arquitetonicoFachadaModerna from "../../../assets/img/projeto-arquitetonico-fachada-grande.png";
+import ImgCasa from "../../../assets/img/casa-do-seu-jeito.png";
+import ImgSeta from "../../../assets/img/seta1.fw.png";
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 
 const Arquitetonico = () => {
 
@@ -41,7 +41,7 @@ const Arquitetonico = () => {
         initial={initial}
         animate={animation}
         transition={{ delay: 0.2, duration: 0.9 }}>
-        <img src={Img1} alt="" />
+        <img src={ImgTop} alt="Desenho arquitetônico" />
         <div className="comercial-title">
           <h1> PROJETO ARQUITETÔNICO</h1>
           <p>Transforme sua residência em referência conceitual</p>
@@ -67,7 +67,7 @@ const Arquitetonico = () => {
             <br />
             Com eles em mãos você constroi sem imprevistos, seguindo o planejamento feito no projeto, é possível reduzir problemas como atraso na entrega da obra, retrabalho e desperdícios de materiais, por exemplo.</p>
         </motion.div>
-        <img src={Img2} alt="" />
+        <img src={arquitetonicoFachada} alt="Fachada casa moderna projetada" />
       </div>
       <div className="comercial-text2">
         <h6>Investir em um projeto arquitetônico garante qualidade, segurança e funcionalidade!</h6>
@@ -77,44 +77,44 @@ const Arquitetonico = () => {
           <br />No entanto, o que elas não sabem é que esse profissional sabe fazer todos os cálculos para evitar desperdício em todas as etapas da obra.
           Começando inclusive pela análise do terreno para garantir que o projeto seja elaborado de acordo com suas imperfeições.
         </p>
-        <img src={Img3} alt="" />
+        <img src={arquitetonicoFachadaModerna} alt="Fachada residencial grande moderna" />
       </div>
 
       <div className="comercial-list-img">
         <ul className="comercial-container-list">
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Facilidade</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Tudo dentro do seu orçamento</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Satisfação garantida</p>
           </li>
 
           <li className="comercial-list  ">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Totalmente personalizado</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Projetos descomplicados</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Sem retrabalhos</p>
           </li>
         </ul>
         <div className="comercial-img-text">
-          <img src={Img4} alt="" />
+          <img src={ImgCasa} alt="Sua casa do seu jeito!" />
           <p>Do seu jeito!</p>
         </div>
       </div>

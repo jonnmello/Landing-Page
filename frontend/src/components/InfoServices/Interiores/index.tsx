@@ -2,13 +2,13 @@ import './styles.css';
 import { motion } from 'framer-motion';
 import { useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import Img1 from "../../../assets/img/interiorfrente.fw.png";
-import Img2 from "../../../assets/img/interiorl-img1.fw.png";
-import Img3 from "../../../assets/img/interiorl-img2.fw.png";
-import Img4 from "../../../assets/img/interiorimg.fw.png";
-import Img5 from "../../../assets/img/seta1.fw.png";
+import ImgTop from "../../../assets/img/desenho-interior-casa.png";
+import interiorQuarto from "../../../assets/img/interior-quarto-grande.png";
+import interiorCozinha from "../../../assets/img/interior-cozinha-preta-pequena.png";
+import interiorPlantas from "../../../assets/img/interior-plantas.png";
+import ImgSeta from "../../../assets/img/seta1.fw.png";
 import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 
 const Interiores = () => {
 
@@ -40,7 +40,7 @@ const Interiores = () => {
         initial={initial}
         animate={animation}
         transition={{ delay: 0.2, duration: 0.9 }}>
-        <img src={Img1} alt="" />
+        <img src={ImgTop} alt="Desenho interior" />
         <div className="comercial-title interior2">
           <h1> PROJETO INTERIORES</h1>
           <p>Conforto e qualidade para o seu lar</p>
@@ -66,7 +66,7 @@ const Interiores = () => {
             <br />
             Além disso auxiliamos na escolha de todos os outros móveis, como sofá, poltronas, mesas e também na decoração, como tapetes, cortinas, quadros, espelhos, papel de parede e etc.</p>
         </motion.div>
-        <img src={Img2} alt="" />
+        <img src={interiorQuarto} alt="Quarto clean grande" />
       </div>
       <div className="comercial-text2 interior3">
         <h6>Nesse serviço, sua casa fica pronta para morar, linda, confortável e muito aconchegante! </h6>
@@ -76,44 +76,44 @@ const Interiores = () => {
           <br />No entanto, o que elas não sabem é que esse profissional sabe fazer todos os cálculos para evitar desperdício em todas as etapas da obra.
           Começando inclusive pela análise do terreno para garantir que o projeto seja elaborado de acordo com suas imperfeições.
         </p>
-        <img src={Img3} alt="" />
+        <img src={interiorCozinha} alt="Cozinha pequena preta e cinza" />
       </div>
 
       <div className="comercial-list-img interior4">
         <ul className="comercial-container-list">
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Ergonomia</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Mais conforto</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Para suas necessidades</p>
           </li>
 
           <li className="comercial-list  ">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Totalmente personalizado</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Projetos descomplicados</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={ImgSeta} alt="seta" />
             <p>Sem retrabalhos</p>
           </li>
         </ul>
         <div className="comercial-img-text">
-          <img src={Img4} alt="" />
+          <img src={interiorPlantas} alt="Interior Plantas" />
           <p>Ideal para você!</p>
         </div>
       </div>

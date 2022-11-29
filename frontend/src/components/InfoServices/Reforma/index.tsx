@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Img1 from "../../../assets/img/reformarfrente.fw.png";
-import Img2 from "../../../assets/img/reformal-img2.fw.png";
-import Img3 from "../../../assets/img/reformal-img1.fw.png";
-import Img4 from "../../../assets/img/reformaimg.fw.png";
+import reformaFachada from "../../../assets/img/reforma-fachada-moderna-madeira-plantas.jpg";
+import reformaCozinha from "../../../assets/img/reforma-cozinha-pequena-branca-mesa.jpg";
+import reformaEconomica from "../../../assets/img/reforma-economica.png";
 import Img5 from "../../../assets/img/seta1.fw.png";
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
@@ -40,7 +40,7 @@ const Reforma = () => {
         initial={initial}
         animate={animation}
         transition={{ delay: 0.2, duration: 0.9 }}>
-        <img src={Img1} alt="" />
+        <img src={Img1} alt="Desenho Casa" />
         <div className="comercial-title reforma2">
           <h1> PROJETO REFORMA</h1>
           <p>Vamos deixar do seu jeito</p>
@@ -70,7 +70,7 @@ const Reforma = () => {
             Vamos te ajudar!
           </p>
         </motion.div>
-        <img src={Img2} alt="" />
+        <img src={reformaFachada} alt="Antes e depois Fachada" />
       </div>
       <div className="comercial-text2 reforma3">
         <h6>Com o objetivo de viabilizar as suas necessidades de acordo com o espaço já existente. </h6>
@@ -78,44 +78,44 @@ const Reforma = () => {
           Podendo ser desde um projeto mais complexo com demolições e construções de novas paredes ou algo mais básico como troca de piso, alteração de bancada, mobiliarios e etc.
 
         </p>
-        <img src={Img3} alt="" />
+        <img src={reformaCozinha} alt="Antes e depois Cozinha" />
       </div>
 
       <div className="comercial-list-img reforma4">
         <ul className="comercial-container-list">
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={Img5} alt="seta" />
             <p>Ergonomia</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={Img5} alt="seta" />
             <p>Mais conforto</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={Img5} alt="seta" />
             <p>Para suas necessidades</p>
           </li>
 
           <li className="comercial-list  ">
-            <img src={Img5} alt="" />
+            <img src={Img5} alt="seta" />
             <p>Totalmente personalizado</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={Img5} alt="seta" />
             <p>Projetos descomplicados</p>
           </li>
 
           <li className="comercial-list">
-            <img src={Img5} alt="" />
+            <img src={Img5} alt="seta" />
             <p>Sem retrabalhos</p>
           </li>
         </ul>
         <div className="comercial-img-text">
-          <img src={Img4} alt="" />
+          <img src={reformaEconomica} alt="Reforma" />
           <p>Mãos a obra!</p>
         </div>
       </div>
