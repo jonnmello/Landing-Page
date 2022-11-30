@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-sm bg-primaryy">
       <div className="navbar-container container-fluid">
 
-        <a href="link" className="navbar-logo">
+        <a href="/" className="navbar-logo">
           <Link to='home' className="navbar-logo" spy={true} smooth={true} offset={-100} duration={700} > <h4 >JAY MENDES</h4>
             <span>ARQUITETURA & INTERIORES</span></Link>
         </a>
@@ -30,16 +30,16 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu">
             <li className="nav-item">
-              <a href=""> <Link to='project' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-50} duration={700} >PROJETOS</Link></a>
+              <a href="project"> <Link to='project' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-50} duration={700} >PROJETOS</Link></a>
             </li>
             <li className="nav-item">
-              <a href=""> <Link to='about' className="visible-xs" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-70} duration={700} >SOBRE</Link></a>
+              <a href="about"> <Link to='about' className="visible-xs" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-70} duration={700} >SOBRE</Link></a>
             </li>
             <li className="nav-item">
-              <a href=""> <Link to='form' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-60} duration={700} >CONTATO</Link></a>
+              <a href="form"> <Link to='form' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-60} duration={700} >CONTATO</Link></a>
             </li>
             <li className="nav-item">
-              <a href=""> <Link to='orcamento' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-100} duration={700} >SERVIÇOS</Link></a>
+              <a href="orcamento"> <Link to='orcamento' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-100} duration={700} >SERVIÇOS</Link></a>
             </li>
           </ul>
         </div>
