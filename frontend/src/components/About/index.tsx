@@ -2,7 +2,7 @@ import './styles.css';
 import { motion } from 'framer-motion';
 import { useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import Img1 from "../../assets/img/jayarquiteta-escritorio.png";
+import Img1 from "../../assets/img/jayarquiteta-escritorio.webp";
 import Img2 from "../../assets/img/email.svg";
 import Img3 from "../../assets/img/instagram.svg";
 import Img4 from "../../assets/img/whatsapp.svg";

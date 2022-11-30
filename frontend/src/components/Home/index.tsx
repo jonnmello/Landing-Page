@@ -1,6 +1,5 @@
 import './styles.css';
 import { init } from 'ityped';
-import seta from '../../assets/img/seta.fw.png';
 import { useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';

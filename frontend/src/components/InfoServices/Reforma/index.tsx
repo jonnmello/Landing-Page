@@ -2,10 +2,10 @@ import './styles.css';
 import { motion } from 'framer-motion';
 import { useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import Img1 from "../../../assets/img/reformarfrente.fw.png";
+import Img1 from "../../../assets/img/reformarfrente.fw.webp";
 import reformaFachada from "../../../assets/img/reforma-fachada-moderna-madeira-plantas.jpg";
 import reformaCozinha from "../../../assets/img/reforma-cozinha-pequena-branca-mesa.jpg";
-import reformaEconomica from "../../../assets/img/reforma-economica.png";
+import reformaEconomica from "../../../assets/img/reforma-economica.webp";
 import Img5 from "../../../assets/img/seta1.fw.png";
 import { useEffect } from 'react';
 

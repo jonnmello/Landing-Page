@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import ImgTop from "../../../assets/img/desenho-interior-casa.png";
 import interiorQuarto from "../../../assets/img/interior-quarto-grande.png";
 import interiorCozinha from "../../../assets/img/interior-cozinha-preta-pequena.png";
-import interiorPlantas from "../../../assets/img/interior-plantas.png";
+import interiorPlantas from "../../../assets/img/interior-plantas.webp";
 import ImgSeta from "../../../assets/img/seta1.fw.png";
 import { useEffect } from 'react';
 
