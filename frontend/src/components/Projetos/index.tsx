@@ -43,7 +43,7 @@ export const Projetos = () => {
     },
     {
       title: "Área Gourmet Rústica",
-      description: "Uma área gourmet aconchegante para receber famílias e amigos, pensada especialmente para atender as necessidades e desejos solicitados!",
+      description: "Uma área gourmet para receber famílias e amigos, pensada especialmente para atender as necessidades e desejos solicitados!",
       imgUrl: projImg4,
     },
     {
@@ -86,7 +86,7 @@ export const Projetos = () => {
     },
     {
       title: "Área Gourmet",
-      description: "O projeto de interiores é extremamente importante pra o bom andamento de uma obra. é nele que escolhemos materiais, definimos onde cada móvel, eletrodoméstico irá pra então localizarmos toda a parte de tomadas e pontos",
+      description: "O projeto de interiores é extremamente importante pra o bom andamento de uma obra. É nele que escolhemos materiais, definimos onde cada móvel, eletrodoméstico irá pra então localizarmos toda a parte de tomadas e pontos",
       imgUrl: interiorImg6,
     },
   ];
@@ -110,7 +110,7 @@ export const Projetos = () => {
     },
     {
       title: "Clínica Recepção ",
-      description: "Um ambiente muito complexo, onde tivemos muitas soluções estéticas e funcionais para dar aos pacientes tudo que eles tem direito e o principal: um espaço aconchegant",
+      description: "Um ambiente muito complexo, onde tivemos muitas soluções estéticas e funcionais para dar aos pacientes tudo que eles tem direito e o principal: um espaço aconchegante",
       imgUrl: comercialImg4,
     },
     {

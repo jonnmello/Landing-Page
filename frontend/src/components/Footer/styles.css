@@ -20,10 +20,11 @@
 }
 
 .footer-1 p {
-  text-align: center;
+  text-align: justify;
   color: #D0BA9B;
   padding-bottom: 10px;
   border-bottom: 1px solid #EBEAE7;
+  padding: 10px 5%;
 }
 
 .footer-1 img {

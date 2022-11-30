@@ -17,7 +17,10 @@ const Footer = () => {
           <img src={logo} alt="" />
           <h1>JAYANNE MENDES</h1>
         </div>
-        <p>A arquitetura é a arte que determina a identidade do nosso tempo e melhora a vida das pessoas.</p>
+        <p>
+          Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Salvador</strong> e mundo.
+          <br />
+        </p>
       </div>
       <div className="footer-2">
         <div className="footer-2-content1">
