@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import ImgTop from "../../../assets/img/desenho-arquitetonico.png";
 import arquitetonicoFachada from "../../../assets/img/projeto-arquitetonico-residencial-esquina.webp";
 import arquitetonicoFachadaModerna from "../../../assets/img/projeto-arquitetonico-fachada-grande.webp";
-import ImgCasa from "../../../assets/img/casa-do-seu-jeito.png";
+import ImgCasa from "../../../assets/img/casa-do-seu-jeito.webp";
 import ImgSeta from "../../../assets/img/seta1.fw.png";
 import { useEffect } from 'react';
 
