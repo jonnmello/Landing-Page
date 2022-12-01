@@ -16,7 +16,7 @@ const ServicesCard = ({ title, img, span, link }: Props) => {
 
 
     <div className="services-planinfocontainer">
-      <h4>{title}</h4>
+      <h5>{title}</h5>
       <div className="services-img">
         <img src={img} alt="" />
       </div>

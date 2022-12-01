@@ -30,16 +30,16 @@ const NavbarSe = () => {
         <div className="collapse navbar-collapse" id="dscatalog-navbar">
           <ul className="navbar-nav offset-md-2 main-menu2">
             <li className="nav-item">
-              <a href="/"> <NavLink to="/">PROJETOS</NavLink></a>
+              <a href="https://jayarquiteta.com.br/"> <NavLink to="/">PROJETOS</NavLink></a>
             </li>
             <li className="nav-item">
-              <a href="/"><NavLink to="/" className="visible-xs">SOBRE</NavLink></a>
+              <a href="https://jayarquiteta.com.br/"><NavLink to="/" className="visible-xs">SOBRE</NavLink></a>
             </li>
             <li className="nav-item">
-              <a href="/"> <NavLink to="/" >CONTATO</NavLink></a>
+              <a href="https://jayarquiteta.com.br/"> <NavLink to="/" >CONTATO</NavLink></a>
             </li>
             <li className="nav-item">
-              <a href="/"> <NavLink to="/">SERVIÇOS</NavLink></a>
+              <a href="https://jayarquiteta.com.br/"> <NavLink to="/">SERVIÇOS</NavLink></a>
             </li>
           </ul>
         </div>

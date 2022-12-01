@@ -23,7 +23,7 @@ const Home = () => {
     init(textRef?.current as unknown as Element, {
       backDelay: 1200,
       showCursor: true,
-      typeSpeed: 250,
+      typeSpeed: 180,
       strings: [
         "Você",
         "sua Família",
