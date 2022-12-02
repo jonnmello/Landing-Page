@@ -18,7 +18,7 @@ const Footer = () => {
           <h1>JAYANNE MENDES</h1>
         </div>
         <p>
-          Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Salvador</strong> e mundo.
+          Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Salvador</strong> e MUNDO.
           <br />
         </p>
       </div>
