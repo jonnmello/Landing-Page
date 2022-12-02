@@ -25,6 +25,15 @@ const Routes = () => (
         <Services />
         <Footer />
       </Route>
+      <Route path="/orcamento">
+        <Navbar />
+        <Home />
+        <Projetos />
+        <About />
+        <Contact />
+        <Services />
+        <Footer />
+      </Route>
       <Route path="/servicos/projeto-arquitetonico" >
         <NavbarSe />
         < Arquitetonico />
