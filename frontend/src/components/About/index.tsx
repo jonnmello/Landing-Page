@@ -42,7 +42,7 @@ const About = () => {
         initial={initial}
         animate={animation}
         transition={{ duration: 1.8 }}>
-        <img src={Img1} alt="" />
+        <img src={Img1} alt="Jayanne arquiteta" />
 
       </motion.div>
       <motion.div className="about-container"

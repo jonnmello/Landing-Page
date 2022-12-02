@@ -39,7 +39,7 @@ const Navbar = () => {
               <a href="form"> <Link to='form' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-60} duration={700} >CONTATO</Link></a>
             </li>
             <li className="nav-item">
-              <a href="orcamento"> <Link to='orcamento' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-100} duration={700} >SERVIÇOS</Link></a>
+              <a href="service"> <Link to='service' data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" spy={true} smooth={true} offset={-100} duration={700} >SERVIÇOS</Link></a>
             </li>
           </ul>
         </div>

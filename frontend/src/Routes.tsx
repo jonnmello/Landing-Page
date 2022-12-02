@@ -25,17 +25,17 @@ const Routes = () => (
         <Services />
         <Footer />
       </Route>
-      <Route path="/servicos/projeto-arquitetonico">
+      <Route path="/servicos/projeto-arquitetonico" >
         <NavbarSe />
         < Arquitetonico />
         <Footer />
       </Route>
-      <Route path="/servicos/projeto-interiores">
+      <Route path="/servicos/projeto-interiores" >
         <NavbarSe />
         <Interiores />
         <Footer />
       </Route>
-      <Route path="/servicos/projeto-reforma">
+      <Route path="/servicos/projeto-reforma" >
         <NavbarSe />
         <Reforma />
         <Footer />
