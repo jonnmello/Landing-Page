@@ -40,7 +40,7 @@ const Services = () => {
     {
       title: 'Projeto Interiores',
       img: interioresImg3,
-      span: 'A estrutura está pronta, agora você precisa de um projeto para a parte interna dos ambientes, seja comerciais ou residências, esse projeto tem o poder de trazer vida pro seu espaço! Nele vamos te ajudar na escolha de acabamentos, iluminação, vamos desenhar os móveis, as bancadas e deixar seu espaço aconchegante!',
+      span: 'A estrutura está pronta mas você precisa de um projeto para a parte interna dos ambientes, seja comerciais ou residências, esse projeto tem o poder de trazer vida pro seu espaço! Nele vamos te ajudar na escolha de acabamentos, iluminação, vamos desenhar os móveis, as bancadas e deixar seu espaço aconchegante!',
       link: '/servicos/projeto-interiores'
     },
     {
