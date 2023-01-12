@@ -62,10 +62,10 @@ const Arquitetonico = () => {
           transition={{ delay: 0.8, duration: 0.9 }}
         >
           <h2>Terreno vazio pra construir?</h2>
-          <p>Você precisa de um projeto arquitetônico! As plantas entregues nesse projeto são parte essencial para construção da sua casa ou comércio.
+          <p>Você precisa de um <strong>projeto arquitetônico!</strong> As plantas entregues nesse projeto são parte essencial para construção da sua <strong>casa ou comércio.</strong>
             <br />
             <br />
-            Com eles em mãos você constroi sem imprevistos, seguindo o planejamento feito no projeto, é possível reduzir problemas como atraso na entrega da obra, retrabalho e desperdícios de materiais, por exemplo.</p>
+            Com eles em mãos você <strong>constroi sem imprevistos</strong>, seguindo o planejamento feito no projeto, é possível reduzir problemas como atraso na entrega da obra, <strong>retrabalho e desperdícios de materiais</strong>, por exemplo.</p>
         </motion.div>
         <img src={arquitetonicoFachada} alt="Fachada casa moderna projetada" />
       </div>

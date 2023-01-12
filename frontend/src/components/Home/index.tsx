@@ -25,9 +25,9 @@ const Home = () => {
       showCursor: true,
       typeSpeed: 180,
       strings: [
-        "Você",
-        "sua Família",
-        "seu Negócio",
+        "você!",
+        "sua família!",
+        "seu negócio!",
       ],
       placeholder: false,
     });
