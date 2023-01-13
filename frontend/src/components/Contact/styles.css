@@ -103,11 +103,25 @@
   .contact-container {
     width: 750px;
   }
+
+  .contact-title p {
+
+    font-size: 22px;
+
+  }
+
 }
 
 @media (min-width: 992px) {
   .contact-container {
     width: 970px;
+  }
+
+
+  .contact-title p {
+
+    font-size: 25px;
+
   }
 }
 

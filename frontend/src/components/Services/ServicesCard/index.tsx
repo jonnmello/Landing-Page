@@ -4,11 +4,12 @@ type Props = {
   title: string,
   img: string,
   span: string,
+  span2: string,
   link: string
 }
 
 
-const ServicesCard = ({ title, img, span, link }: Props) => {
+const ServicesCard = ({ title, img, span, link, span2 }: Props) => {
 
 
   return (
@@ -21,6 +22,7 @@ const ServicesCard = ({ title, img, span, link }: Props) => {
         <img src={img} alt="" />
       </div>
       <p>{span}</p>
+      <p>{span2}</p>
       <div className="services-button">
         <a href={link} target="_parent"> <motion.button
           whileHover={{ scale: 1.1 }}

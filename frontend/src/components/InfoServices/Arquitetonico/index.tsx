@@ -44,7 +44,7 @@ const Arquitetonico = () => {
         <img src={ImgTop} alt="Desenho arquitetônico" />
         <div className="comercial-title">
           <h1> PROJETO ARQUITETÔNICO</h1>
-          <p>Transforme sua residência em referência conceitual</p>
+
         </div>
       </motion.div>
       <div className="comercial-text">
@@ -61,21 +61,20 @@ const Arquitetonico = () => {
           }}
           transition={{ delay: 0.8, duration: 0.9 }}
         >
-          <h2>Terreno vazio pra construir?</h2>
-          <p>Você precisa de um <strong>projeto arquitetônico!</strong> As plantas entregues nesse projeto são parte essencial para construção da sua <strong>casa ou comércio.</strong>
+
+          <p> <strong>Tem um terreno vazio</strong> para construir? Você precisa de um <strong>projeto arquitetônico!</strong> As plantas entregues nesse projeto são parte essencial para construção da sua <strong>casa ou comércio.</strong>
             <br />
             <br />
-            Com eles em mãos você <strong>constroi sem imprevistos</strong>, seguindo o planejamento feito no projeto, é possível reduzir problemas como atraso na entrega da obra, <strong>retrabalho e desperdícios de materiais</strong>, por exemplo.</p>
+            Com o projeto em mãos para construir é possível <strong>reduzir problemas na obra, retrabalho e desperdício de materiais.</strong> O projeto será o mapa que te guiará ao seu destino final que é a sua <strong>casa dos sonhos.</strong></p>
         </motion.div>
         <img src={arquitetonicoFachada} alt="Fachada casa moderna projetada" />
       </div>
       <div className="comercial-text2">
         <h6>Investir em um projeto arquitetônico garante qualidade, segurança e funcionalidade!</h6>
         <p>
-          Muitas pessoas ignoram esse serviço pois vêem a possibilidade da contratação de um arquiteto como um gasto a mais.
+          Os nossos diferenciais na elaboração de um projeto arquitetônico são uma <strong>análise detalhada </strong>dos fatores climáticos que afetarão a construção, como sol, ventos, juntamente com a atenção aos <strong>desejos e necessidades</strong> dos nossos clientes para imprimir a <strong>sua personalidade na residência</strong>.
           <br />
-          <br />No entanto, o que elas não sabem é que esse profissional sabe fazer todos os cálculos para evitar desperdício em todas as etapas da obra.
-          Começando inclusive pela análise do terreno para garantir que o projeto seja elaborado de acordo com suas imperfeições.
+          <br />O <strong>valor do projeto</strong> é uma porcentagem pequena em relação ao custo total de uma obra e sem dúvidas é o serviço que fará a  <strong>maior diferença</strong> para a concretização do seu sonho. <strong>Vamos juntos?</strong>
         </p>
         <img src={arquitetonicoFachadaModerna} alt="Fachada residencial grande moderna" />
       </div>
@@ -123,21 +122,6 @@ const Arquitetonico = () => {
           FAÇA UM ORÇAMENTO AGORA!
         </button>  </a>
       </div>
-      <div className="comercial-final">
-        <p>Cada um dos projetos de arquitetura residencial tem sua particularidade e desafio. Portanto, reformar e/ou decorar um apartamento por conta própria pode muitas vezes causar transtornos e dor de cabeça e até mesmo encarecer ainda mais a obra.
-          <br /><br />
-          A ajuda profissional pode ser um fator decisivo para as boas escolhas. É fato que algumas pessoas podem dar conta sozinho em uma empreitada na hora de reformar ou decorar uma casa mas com certeza vão deixar de ter outros afazeres por se preocupar com algo em que não são profissionais.
-          <br /><br />
-          Contar com ajuda com um escritório de arquitetura pode ser decisivo para as boas escolhas. É muito comum as pessoas terem algum retrabalho na obra ou fazer compras equivocadas na decoração quando não se tem a ajuda de um profissional especializado.</p>
-      </div>
-      <div className="comercial-button">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe44VaIEZypA8uXB1pVSSgxRE2gHxnp6KFw9aYAENgleqe2Kg/viewform" target=" _blank">  <button>
-          ORÇAMENTO
-        </button>  </a>
-      </div>
-
-
-
     </div>
 
   )

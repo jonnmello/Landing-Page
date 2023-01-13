@@ -20,6 +20,7 @@
   letter-spacing: 0.2em;
   font-size: 35px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .about-container span {
@@ -135,6 +136,10 @@
 
   .about-container {
     padding-top: 30px;
+  }
+
+  .about-container h1 {
+    padding-left: 12px;
   }
 
   .about-text {
