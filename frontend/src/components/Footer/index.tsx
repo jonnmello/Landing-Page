@@ -15,7 +15,11 @@ const Footer = () => {
       <div className="footer-1">
         <div className="footer-top">
           <img src={logo} alt="Jayanne Arquiteta" />
-          <h1>JAYANNE MENDES</h1>
+          <div className="footer-top2">
+            <h1>JAYANNE MENDES</h1>
+            <p>arquitetura & interiores</p>
+          </div>
+
         </div>
         <p>
           Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Salvador</strong> e MUNDO.

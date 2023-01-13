@@ -50,21 +50,15 @@ const About = () => {
         animate={animation1}
         transition={{ duration: 2, delay: 0.7 }}>
 
-        <h1>Quem sou</h1>
-        <span> Jayanne Mendes</span>
+        <h1>QUEM SOMOS</h1>
+
         <div className="about-text">
           <p>
-            <strong> - Arquiteta e Urbanista
-              <br />
-              - Especialista em Designer de Interiores</strong>
-            <br />
-            <br />
 
-            O escritório Jayanne Mendes apresenta soluções inteligentes que resultam em ambientes funcionais, com <strong>design e estilo</strong>, sempre ligado nas inovações em materiais e tendências, para oferecer o que há de mais <strong>atual</strong> a seus clientes.
+            Somos um <strong>escritório de arquitetura e design de interiores</strong>, temos como propósito projetar ambientes funcionais e com <strong>design elegante</strong>.
             <br />
             <br />
-            Idealizamos um projeto que tenha o melhor <strong>aproveitamento de espaço</strong>, no melhor custo benefício dos materiais e acabamentos utilizados, dentro do orçamento acordado.
-            Assim é possível concretizar os sonhos dentro da <strong>realidade e necessidade do cliente</strong>.
+            Nossas prioridades nos projetos são o melhor <strong>aproveitamento do espaço</strong> e materiais que tenham o melhor custo benefício de acordo com os <strong>desejos e necessidades dos clientes</strong>.
             <br />
             <br />
             Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Salvador</strong> e mundo.
@@ -73,7 +67,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-rede">
-          <h2>Confira meus contatos</h2>
+          <h2>CONTATOS</h2>
           <div className="social-icon">
             <a href="mailto:jayarquiteta@gmail.com?subject=Preciso%20de%20ajuda"><img src={Img2} alt="Email" /></a>
             <a href="https://www.instagram.com/jayarquiteta/" target="_blank"><img src={Img3} alt="Instagram" /></a>

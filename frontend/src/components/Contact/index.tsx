@@ -16,36 +16,36 @@ const Contact = () => {
     {
       index: 0,
       isOpened: false,
-      title: 'Qual a vantagem de contratar a Jay Arquiteta?',
+      title: 'O valor do projeto é caro?',
       answer:
-        'A list of questions and answers relating to a particular subject, especially one giving basic information for users of a website.',
+        'O valor do projeto é uma porcentagem pequena em relação ao que se gasta numa obra. O projeto é um dos menores gastos em todos esse processo e sem dúvida o investimento que vale mais a pena. O que vai deixar sua casa linda não é o porcelanato X, o móvel Y, mas sim a junção de todos os materiais e é no projeto que avaliamos as melhores opções pra que você tenha segurança nas suas escolhas.',
     },
     {
       index: 1,
       isOpened: false,
       title: 'Quanto custa o m²?',
       answer:
-        'Nós não cobramos por m² pois cada projeto requer uma necessidade e um grau de dificuldade diferente, não achamos justo ter um preço fixo para diferentes serviços, por isso nosso orçamento é personalizado.',
+        'Assim como cada projeto é único, nossos serviços e orçamentos são personalizados para atender as necessidades dos nossos clientes, então não temos um preço fixo para serviços diferente, por isso não cobramos por metro quadrado.',
     },
     {
       index: 2,
       isOpened: false,
       title: 'Como funciona o projeto a distância?',
       answer:
-        'O projeto a distância funciona da mesma forma que o presencial, a diferença é que não vou tirar as medidas pessoalmente, mas vou te direcionar para pegar as informações que preciso, as etapas continuam da mesma forma, faremos reuniões on-line e com o projeto executivo que entrego, você consegue executar tranquilamente a distância.',
+        'O projeto a distância funciona da mesma forma que o presencial, a diferença é que as medidas não serão tiradas pela nossa equipe, o restante funciona perfeitamente como um projeto presencial, direcionamos como pegar as informações que precisamos para elaborar o projeto. Faremos reuniões on-line para apresentação do projeto, e ao final dele o cliente consegue executar tranquilamente a distância.',
     },
     {
       index: 3,
       isOpened: false,
       title: 'Vocês parcelam o Projeto?',
       answer:
-        'Sim, parcelamos no cartão até 5x sem juros',
+        'Sim! Parcelamos no cartão sem juros. ',
     },
     {
       index: 4,
       isOpened: false,
       title: 'Posso contratar o projeto completo e ir fazendo aos poucos?',
-      answer: 'Sim, claro! O projeto funciona como um mapa guia, onde você terá todas as medidas e informações que precisa em mão e você pode executar conforme a sua prioridade.',
+      answer: 'Sim, claro! O projeto funciona como um mapa, onde você terá todas as medidas e informações que precisa em mão e vai poder executar conforme a sua prioridade.',
     },
   ]);
 
@@ -59,7 +59,7 @@ const Contact = () => {
     <div className="contact">
       <div className="contact-container">
         <div className="contact-title">
-          <h2>FAQ</h2>
+
           <p>Perguntas Frequentes</p>
         </div>
         <div className="contact-faq-list">
