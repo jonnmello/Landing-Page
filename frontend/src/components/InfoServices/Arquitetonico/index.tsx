@@ -15,12 +15,10 @@ const Arquitetonico = () => {
   const initial = {
     x: -30,
     opacity: 0
-
   };
 
   const animation = useAnimation();
   const { ref, inView } = useInView({ threshold: 0.2 });
-
 
   useEffect(() => {
     if (inView) {
