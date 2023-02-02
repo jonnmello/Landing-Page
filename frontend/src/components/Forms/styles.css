@@ -12,6 +12,7 @@
 
 .form-container span {
   padding-bottom: 15px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -91,6 +92,12 @@
 
   .form-container {
     margin-top: 120px;
+  }
+
+  .form-container span {
+
+    font-size: 16px;
+
   }
 }
 

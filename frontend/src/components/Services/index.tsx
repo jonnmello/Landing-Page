@@ -60,10 +60,10 @@ const Services = () => {
       <div className="services-container" id="service" ref={ref}>
         <div className="services-title">
           <h2>Conheça um pouco mais sobre o nosso trabalho e solicite um orçamento.</h2>
-          <p>Esta em dúvida em qual serviço contratar?
+          <p>Esta em dúvida em qual <strong>serviço contratar</strong>?
 
             <br />
-            Confira abaixo qual serviço encaixa na sua necessidade: </p>
+            <strong>Confira abaixo</strong> qual serviço encaixa na sua necessidade: </p>
         </div>
         <div className="services-row">
           {serviceCardT.map((el, index) => (

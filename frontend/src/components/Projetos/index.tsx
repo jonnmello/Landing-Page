@@ -156,7 +156,7 @@ export const Projetos = () => {
                     <p>Nós da <strong>Jayanne Mendes </strong> acreditamos em um desenvolvimento de projeto contando a cada etapa com a <strong>participação dos nossos clientes</strong>. Ouvimos todos os <strong>desejos e necessidades</strong> para o espaço, para que possamos criar um projeto que reflita a essência e estilo de vida de cada um.
                       <br />
                       <br />
-                      Tratamos cada cliente e cada projeto como <strong>únicos</strong>, e por isso fazemos <strong>projetos personalizados</strong> para cada cliente. Entendemos que tudo no projeto gira em torno da vivência do ser humano no espaço e é por isso que tem nossa assinatura em diversos <strong>projetos residências e comerciais</strong>, tanto construção como reforma.
+                      Tratamos cada cliente e cada projeto como <strong>únicos</strong>, e por isso fazemos <strong>projetos personalizados</strong>. Entendemos que tudo no projeto gira em torno da vivência do ser humano no espaço e é por isso que tem nossa assinatura em diversos <strong>projetos residenciais e comerciais</strong>, tanto construção como reforma.
                       <br />
                       <br />O projeto é o mapa que te levará a linha de chegada que é o seu <strong>sonho</strong>, e nós seremos o seu guia. Vamos juntos?</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">

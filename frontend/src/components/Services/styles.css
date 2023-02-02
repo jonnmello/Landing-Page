@@ -18,14 +18,14 @@
 
 
 .services-title {
-  text-align: center;
-  padding-bottom: 15px;
+  text-align: left;
+  padding: 0px 18px;
+
 }
 
 .services-title h2 {
   font-size: 25px;
   text-transform: uppercase;
-  margin-bottom: 10px;
   padding-bottom: 20px;
   position: relative;
   line-height: 1.2;
@@ -48,10 +48,9 @@
 .services-title p {
   margin-bottom: 0;
   margin-top: 0;
-  text-align: center;
+  text-align: left;
   color: #8B8B8B;
   font-size: 15px;
-  padding: 0px 18px;
 }
 
 
@@ -172,11 +171,11 @@
   }
 
   .services-title h2 {
-    font-size: 38px;
+    font-size: 35px;
   }
 
   .services-title p {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -186,7 +185,8 @@
   }
 
   .services-title h2 {
-    padding: 0px 10%;
+    padding: 15px 0px;
+    font-size: 35px;
   }
 
 
@@ -202,5 +202,6 @@
   .services-container {
     width: 1170px;
   }
+
 
 }
