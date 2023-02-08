@@ -25,14 +25,14 @@
 
 .navbar-logo h4 {
   font-size: 18px;
-  font-family: 'OrganettoB';
+  font-family: 'OrganettoB', sans-serif;
   letter-spacing: 0.1em;
 }
 
 .navbar-logo span {
   padding-left: 45px;
   font-size: 10px;
-  font-family: 'DraftBR';
+  font-family: 'DraftBR', sans-serif;
   letter-spacing: 0.1em;
 }
 
