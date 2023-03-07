@@ -26,10 +26,10 @@ const Forms = () => {
       email: formData.email,
       phone: formData.phone
     }
+    toast.success("Formulário enviado com sucesso!");
 
     emailjs.send("service_w2ob9yt", "template_uogzr2d", templateParams, "S7jqO9VwCuTP4RWQg")
       .then((response) => {
-        toast.success("Formulário enviado com sucesso!")
         setValue('email', '');
         setValue('name', '');
         setValue('phone', '');
@@ -39,6 +39,7 @@ const Forms = () => {
       .catch((error) => {
         setHasError(true);
         console.log('Erro', error);
+        toast.warn("Envio Falhou!");
       });
   };
 
