@@ -39,7 +39,7 @@ const NavbarSe = () => {
               <a href="https://jayarquiteta.com.br/"> <NavLink to="/" >CONTATO</NavLink></a>
             </li>
             <li className="nav-item">
-              <a href="https://jayarquiteta.com.br/"> <NavLink to="/">SERVIÇOS</NavLink></a>
+              <a href="https://jayarquiteta.com.br/"> <NavLink to="/">ORÇAMENTO</NavLink></a>
             </li>
           </ul>
         </div>

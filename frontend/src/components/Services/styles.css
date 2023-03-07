@@ -150,10 +150,15 @@
 }
 
 .services-button button {
-  background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
+  background-image: linear-gradient(to top, #C5AA83 0%, #CDB694 100%);
   color: white;
-  padding: 15px 30px;
+  padding: 15px 12px;
+  margin: 0 3px;
   border: none;
+}
+
+.button1 button {
+  background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
 }
 
 @media (min-width: 450px) {
