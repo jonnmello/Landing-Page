@@ -61,7 +61,7 @@
   padding: 17px 0;
   color: #7B6653;
   width: 100%;
-  font-size: 15px;
+  font-size: 13px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -105,8 +105,13 @@
   border-radius: 0 55px 55px 0;
 }
 
+@media (min-width: 430px) {
 
+  .project .nav.nav-pills .nav-link {
+    font-size: 15px;
+  }
 
+}
 
 @media (min-width: 575px) {
 

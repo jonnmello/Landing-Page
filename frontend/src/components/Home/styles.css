@@ -32,7 +32,7 @@
   padding-top: 30px;
   padding-left: 30px;
   font-size: 15px;
-  color: #907760;
+  color: #75614F;
 }
 
 .home-text span {
@@ -60,6 +60,31 @@
 .home-context h1 {
   font-size: 14.2px;
   font-weight: 400;
+}
+
+.home-button button {
+  background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.home-button button:hover {
+  background: linear-gradient(90.21deg, #c97b65 -5.91%, #e29860 111.58%);
+  transform: scale(1.04);
+
+}
+
+
+.home-button {
+
+  margin-top: 50px;
+  padding-left: 50%;
 }
 
 @media (min-width: 350px) {
