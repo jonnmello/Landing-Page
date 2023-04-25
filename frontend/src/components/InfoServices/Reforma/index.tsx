@@ -123,7 +123,7 @@ const Reforma = () => {
       </div>
       <div className="comercial-button">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLScyEZKIhv3xQfktNcCZUdUZ1BlO2pUvsRVxeyBdmxSVXXYH8Q/viewform" target=" _blank">  <button>
-          FAÇA UM ORÇAMENTO AGORA!
+          CLICK E FAÇA UM ORÇAMENTO!
         </button>  </a>
       </div>
 

@@ -119,7 +119,7 @@ const Interiores = () => {
       </div>
       <div className="comercial-button">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSchctltvQQUoNZQK5wdibhsvElqRZhel7Co0cIGbhm1wVm_zQ/viewform" target=" _blank">  <button>
-          FAÇA UM ORÇAMENTO AGORA!
+          CLICK E FAÇA UM ORÇAMENTO!
         </button>  </a>
       </div>
 
