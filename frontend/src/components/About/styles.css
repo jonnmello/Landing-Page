@@ -46,7 +46,7 @@
 
 .about-rede {
   margin-top: 15px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -112,6 +112,36 @@
 
 }
 
+.about-button button {
+
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.about-button button:hover {
+  background-image: linear-gradient(30deg, #fccb90 0%, #d57eeb 100%);
+  transform: scale(1.04);
+
+}
+
+
+.about-button {
+  text-align: center;
+  align-items: center;
+  padding: 15px 15%;
+  width: 100%;
+}
+
+
+
 
 @media (min-width: 470px) {
 
@@ -171,6 +201,10 @@
     width: 70%;
   }
 
+  .about-button {
+    width: 70%;
+  }
+
   .about-img img {
     margin-left: 80px;
 
@@ -185,6 +219,10 @@
 
 @media (min-width: 1900px) {
   .about-text {
+    width: 80%;
+  }
+
+  .about-button {
     width: 80%;
   }
 

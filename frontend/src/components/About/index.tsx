@@ -55,16 +55,18 @@ const About = () => {
         <div className="about-text">
           <p>
 
-            Somos um <strong>escritório de arquitetura e design de interiores</strong>, temos como propósito projetar ambientes funcionais e com <strong>design elegante</strong>.
+            Somos um <strong>escritório de arquitetura e design de interiores</strong>, e temos como propósito projetar ambientes funcionais e com <strong>design elegante</strong>.
             <br />
             <br />
-            Nossas prioridades nos projetos são o melhor <strong>aproveitamento do espaço</strong> e materiais que tenham o melhor custo benefício de acordo com os <strong>desejos e necessidades dos clientes</strong>.
-            <br />
-            <br />
-            Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Salvador</strong> e mundo.
+            Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Feira de santana - Salvador</strong> e mundo.
             <br />
 
           </p>
+        </div>
+        <div className="about-button">
+          <a href="https://www.instagram.com/jayarquiteta/" target=" _blank">  <button>
+            <strong>ME SIGA NO INSTAGRAM!</strong>
+          </button>  </a>
         </div>
         <div className="about-rede">
           <h2>CONTATOS</h2>
@@ -74,6 +76,7 @@ const About = () => {
             <a href="https://api.whatsapp.com/send?phone=557193720605&text=Escrit%C3%B3rio%20Jay%20Mendes%20-%20Arquitetura%20e%20Interiores" target="_blank"><img src={Img4} alt="Whatsapp" /></a>
           </div>
         </div>
+
       </motion.div>
     </div>
 

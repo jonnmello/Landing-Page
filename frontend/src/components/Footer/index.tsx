@@ -22,7 +22,7 @@ const Footer = () => {
 
         </div>
         <p>
-          Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Salvador</strong> e MUNDO.
+          Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Feira de Santana - Salvador</strong> e MUNDO.
           <br />
         </p>
       </div>
