@@ -15,7 +15,7 @@ const ServicesCard = ({ title, img, span, link, link2, span2 }: Props) => {
 
   function aumentar() {
     numero++
-    console.log(numero)
+    console.log("Orça", numero)
   }
 
 

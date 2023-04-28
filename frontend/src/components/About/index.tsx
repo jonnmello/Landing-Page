@@ -16,6 +16,14 @@ const About = () => {
 
   };
 
+  let numero = 0;
+
+  function aumentar() {
+    numero++
+    console.log("inst", numero)
+  }
+
+
   const animation = useAnimation();
   const animation1 = useAnimation();
   const { ref, inView } = useInView({ threshold: 0.2 });
@@ -64,7 +72,7 @@ const About = () => {
           </p>
         </div>
         <div className="about-button">
-          <a href="https://www.instagram.com/jayarquiteta/" target=" _blank">  <button>
+          <a href="https://www.instagram.com/jayarquiteta/" onClick={aumentar} target=" _blank">  <button>
             <strong>ME SIGA NO INSTAGRAM!</strong>
           </button>  </a>
         </div>
