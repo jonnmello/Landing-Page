@@ -63,7 +63,10 @@ const About = () => {
         <div className="about-text">
           <p>
 
-            Somos um <strong>escritório de arquitetura e design de interiores</strong>, e temos como propósito projetar ambientes funcionais e com <strong>design elegante</strong>.
+            Somos um <strong>Escritório de Arquitetura e Design de Interiores</strong>, acreditamos que cada cliente é único e merece um <strong>projeto exclusivo e personalizado</strong>. Não seguimos uma fórmula padrão ou estilo pré-definido, pois sabemos que cada pessoa tem suas próprias preferências, necessidades e estilo de vida.
+            <br />
+            <br />
+            Nosso objetivo é <strong>transformar ambientes</strong> em lugares que transmitam a essência e a identidade dos nossos clientes. Não importa se é uma residência, um espaço comercial ou um projeto de interiores, estamos sempre em busca de <strong>soluções criativas e personalizadas</strong> que deixem um legado duradouro e significativo na vida das pessoas.
             <br />
             <br />
             Atuando nas regiões  de <strong>Cansanção - Monte santo - Euclides da Cunha - Quijingue - Capim Grosso - SantaLuz - Conceição do Coité - Feira de santana - Salvador</strong> e mundo.

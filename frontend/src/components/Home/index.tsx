@@ -61,10 +61,8 @@ const Home = () => {
           transition={{ delay: 0.8, duration: 0.9 }}
         >
           <h1>
-            <strong>Escritório de arquitetura e interiores</strong> com atendimento presencial em <strong>Cansanção-BA e região</strong>.
-            <br />
-            <br />
-            Também a distância <strong>onde você estiver!</strong>
+            <strong>Escritório de arquitetura e interiores</strong> com atendimento em Conceição do Coité, Senhor do Bonfim, SantaLuz, Euclides da Cunha, Quijingue, Cansanção e regiões.
+
           </h1>
         </motion.div>
       </div>
