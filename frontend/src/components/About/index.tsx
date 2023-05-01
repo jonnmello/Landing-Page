@@ -82,7 +82,7 @@ const About = () => {
         <div className="about-rede">
           <h2>CONTATOS</h2>
           <div className="social-icon">
-            <a href="mailto:jayarquiteta@gmail.com?subject=Preciso%20de%20ajuda"><img src={Img2} alt="Email" /></a>
+            <a href="mailto:contato@jayarquiteta.com.br?subject=Preciso%20de%20ajuda"><img src={Img2} alt="Email" /></a>
             <a href="https://www.instagram.com/jayarquiteta/" target="_blank"><img src={Img3} alt="Instagram" /></a>
             <a href="https://api.whatsapp.com/send?phone=557193720605&text=Escrit%C3%B3rio%20Jay%20Mendes%20-%20Arquitetura%20e%20Interiores" target="_blank"><img src={Img4} alt="Whatsapp" /></a>
           </div>

@@ -45,7 +45,7 @@ const Footer = () => {
           <img src={email} alt="Email" />
           <div className="footer-2-content1-text">
             <h2>E-mail</h2>
-            <p>Jayarquiteta@gmail.com</p>
+            <p>contato@jayarquiteta.com.br</p>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="footer-3">
         <h1>Contatos</h1>
         <div className="social-icon1">
-          <a href="mailto:jayarquiteta@gmail.com?subject=Preciso%20de%20ajuda"><img src={email} alt="Email" /></a>
+          <a href="mailto:contato@jayarquiteta.com.br?subject=Preciso%20de%20ajuda"><img src={email} alt="Email" /></a>
           <a href="https://www.instagram.com/jayarquiteta/" target="_blank"><img src={insta} alt="Instagram JayArquiteta" /></a>
           <a href="https://api.whatsapp.com/send?phone=557193720605&text=Escrit%C3%B3rio%20Jay%20Mendes%20-%20Arquitetura%20e%20Interiores" target="_blank"><img src={Img4} alt="Whatsapp" /></a>
         </div>
