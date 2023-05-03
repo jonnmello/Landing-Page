@@ -118,7 +118,7 @@ const Arquitetonico = () => {
         </div>
       </div>
       <div className="comercial-button">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe44VaIEZypA8uXB1pVSSgxRE2gHxnp6KFw9aYAENgleqe2Kg/viewform" target=" _blank">  <button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYwuqoQI49sImCdDVHJtvxjEZKRwhY_WOdOfzyhs_Bst9NwA/viewform" target=" _blank">  <button>
           CLICK E FAÇA UM ORÇAMENTO!
         </button>  </a>
       </div>
