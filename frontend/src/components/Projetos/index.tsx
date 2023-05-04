@@ -212,6 +212,17 @@ export const Projetos = () => {
                           </Row>
                         </Tab.Pane>
                       </Tab.Content>
+                      <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                        <Nav.Item>
+                          <Nav.Link eventKey="first">Residencial</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="second">Interiores</Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link eventKey="third">Comercial</Nav.Link>
+                        </Nav.Item>
+                      </Nav>
                     </Tab.Container>
                   </div>}
               </TrackVisibility>
