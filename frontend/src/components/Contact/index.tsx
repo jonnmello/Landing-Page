@@ -16,9 +16,9 @@ const Contact = () => {
     {
       index: 0,
       isOpened: false,
-      title: 'O valor do projeto é caro?',
+      title: 'Por que contratar uma arquiteta?',
       answer:
-        'O valor do projeto é uma porcentagem pequena em relação ao que se gasta numa obra. O projeto é um dos menores gastos em todos esse processo e sem dúvida o investimento que vale mais a pena. O que vai deixar sua casa linda não é o porcelanato X, o móvel Y, mas sim a junção de todos os materiais e é no projeto que avaliamos as melhores opções pra que você tenha segurança nas suas escolhas.',
+        'Você terá a garantia de que o seu espaço será projetado de forma eficiente, personalizada e com qualidade. Também irá maximizar o uso do espaço, minimizar os custos e riscos de retrabalho, além de atender às suas necessidades. Faça esse investimento valioso e garanta um espaço incrível e funcional, que irá impressionar a todos que visitarem.',
     },
     {
       index: 1,
