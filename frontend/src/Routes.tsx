@@ -10,6 +10,7 @@ import Navbar from './components/Navbar';
 import NavbarSe from './components/NavbarSe';
 import { Projetos } from './components/Projetos';
 import Services from './components/Services';
+import Forms from './components/Forms/Forms';
 
 const Routes = () => (
 
@@ -23,6 +24,7 @@ const Routes = () => (
         <About />
         <Contact />
         <Services />
+        <Forms />
         <Footer />
       </Route>
       <Route path="/orcamento">
