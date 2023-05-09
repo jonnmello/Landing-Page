@@ -101,7 +101,8 @@
 
 @media (min-width: 768px) {
   .contact-container {
-    width: 750px;
+    max-width: 75%;
+    margin: 0 auto;
   }
 
   .contact-title p {
@@ -113,10 +114,6 @@
 }
 
 @media (min-width: 992px) {
-  .contact-container {
-    width: 970px;
-  }
-
 
   .contact-title p {
 
@@ -126,9 +123,6 @@
 }
 
 @media (min-width: 1200px) {
-  .contact-container {
-    width: 1170px;
-  }
 
   .contact {
     flex-direction: row;
@@ -149,5 +143,13 @@
   .contact-faq-question {
 
     font-size: 17px;
+  }
+}
+
+@media (min-width: 1700px) {
+
+  .contact-container {
+    max-width: 65%;
+
   }
 }

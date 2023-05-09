@@ -50,6 +50,7 @@
   height: 110px;
   background-color: rgba(171, 140, 109, 1);
   color: #F8F7F2;
+  border-radius: 5px;
 }
 
 .home-context img {
