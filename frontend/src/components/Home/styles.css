@@ -67,12 +67,12 @@
   background: linear-gradient(90.21deg, #c79081 -5.91%, #dfa579 111.58%);
   color: white;
   border: none;
-  width: 100%;
-  padding: 0;
-  margin: 0;
   height: 50px;
+  width: 100%;
   border-radius: 5px;
+  font-size: 14px;
   transition: all 0.5s ease-in-out;
+
 }
 
 .home-button button:hover {
@@ -83,10 +83,14 @@
 
 
 .home-button {
-
-  margin-top: 50px;
-  padding-left: 50%;
+  width: 65%;
+  margin: 20% auto;
 }
+
+
+
+
+
 
 @media (min-width: 350px) {
   .home-text h4 {

@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { useAnimation } from 'framer-motion';
+import { Link } from 'react-scroll';
 
 
 const Home = () => {
@@ -64,6 +65,14 @@ const Home = () => {
             <strong>Escritório de arquitetura e interiores</strong> com atendimento em Conceição do Coité, Senhor do Bonfim, SantaLuz, Euclides da Cunha, Quijingue, Cansanção e regiões.
 
           </h1>
+          <div className="home-button">
+            <a href="service" >
+              <Link to='service' spy={true} smooth={true} offset={-100} duration={900} >
+                <button>
+                  <strong>ORÇAMENTOS</strong>
+                </button></Link>
+            </a>
+          </div>
         </motion.div>
       </div>
     </div >
