@@ -32,12 +32,12 @@
   padding-top: 30px;
   padding-left: 30px;
   font-size: 15px;
-  color: #75614F;
+  color: var(--home-text);
 }
 
 .home-text span {
 
-  background-color: #E3D7BF;
+  background-color: var(--bege-color);
 }
 
 .home-context {

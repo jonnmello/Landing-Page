@@ -22,6 +22,12 @@
   padding: 0;
 }
 
+:root {
+  --main-color: #AB8C6C;
+  --home-text: #75614F;
+  --bege-color: #E3D7BF;
+}
+
 h1,
 h2,
 h3,
