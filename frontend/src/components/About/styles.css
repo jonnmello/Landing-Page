@@ -50,6 +50,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  display: none;
 }
 
 .about-rede img {
@@ -136,7 +137,7 @@
 .about-button {
   text-align: center;
   align-items: center;
-  padding: 15px 15%;
+  padding: 25px 15%;
   width: 100%;
 }
 

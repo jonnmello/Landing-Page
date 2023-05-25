@@ -83,6 +83,7 @@
 
 
 .home-button {
+  display: none;
   width: 65%;
   margin: 20% auto;
 }
