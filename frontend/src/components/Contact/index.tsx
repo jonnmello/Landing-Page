@@ -30,19 +30,12 @@ const Contact = () => {
     {
       index: 2,
       isOpened: false,
-      title: 'Como funciona o projeto a distância?',
-      answer:
-        'O projeto a distância funciona da mesma forma que o presencial, a diferença é que as medidas não serão tiradas pela nossa equipe, o restante funciona perfeitamente como um projeto presencial, direcionamos como pegar as informações que precisamos para elaborar o projeto. Faremos reuniões on-line para apresentação do projeto, e ao final dele o cliente consegue executar tranquilamente a distância.',
-    },
-    {
-      index: 3,
-      isOpened: false,
       title: 'Vocês parcelam o Projeto?',
       answer:
         'Sim! Parcelamos no cartão sem juros. ',
     },
     {
-      index: 4,
+      index: 3,
       isOpened: false,
       title: 'Posso contratar o projeto completo e ir fazendo aos poucos?',
       answer: 'Sim, claro! O projeto funciona como um mapa, onde você terá todas as medidas e informações que precisa em mão e vai poder executar conforme a sua prioridade.',

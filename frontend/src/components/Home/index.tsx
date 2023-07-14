@@ -62,7 +62,7 @@ const Home = () => {
           transition={{ delay: 0.8, duration: 0.9 }}
         >
           <h1>
-            <strong>Escritório de arquitetura e interiores</strong> com atendimento em Conceição do Coité, Senhor do Bonfim, SantaLuz, Euclides da Cunha, Quijingue, Cansanção e regiões.
+            <strong>Escritório de arquitetura e interiores</strong> com atendimento em Feira de Santana, Conceição do Coité, Senhor do Bonfim, Euclides da Cunha, Cansanção e regiões.
 
           </h1>
           <div className="home-button">

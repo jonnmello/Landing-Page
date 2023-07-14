@@ -3,9 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../../assets/img/recidencial-fachada-moderna-esquina-espelhada-jayarquiteta.webp";
 import projImg2 from "../../assets/img/recidencial-fachada-moderna-jayarquiteta.webp";
 import projImg3 from "../../assets/img/recidencial-fachada-moderna-planta-jayarquiteta.webp";
-import projImg4 from "../../assets/img/residencial-fachada-muro-moderna-jayarquiteta.webp";
-import projImg5 from "../../assets/img/residencial-fachada-residencial-moderna-jayarquiteta.webp";
-import projImg6 from "../../assets/img/residencial-fachada-residencial-jayarquiteta-muro.webp";
+import projImg4 from "../../assets/img/residencial-area-gourmet-feira-de-santana-piscina-infinita-planta-moderna.jpg";
+import projImg5 from "../../assets/img/residencial-fachada-feira-de-santana-reforma-moderna.jpg";
+import projImg6 from "../../assets/img/residencial-Fachada-feira-de-santana-moderna-clean-neutra-planta.jpg";
 import interiorImg1 from "../../assets/img/interiores-quarto-moderno-suite-planejado-clean-jayarquiteta.webp";
 import interiorImg2 from "../../assets/img/interiores-homeoffice-escritorio-jayarquiteta.webp";
 import interiorImg3 from "../../assets/img/interiores-cozinha-moderna-preta-planejada-jayarquiteta.webp";
@@ -26,42 +26,46 @@ import TrackVisibility from 'react-on-screen';
 export const Projetos = () => {
 
   const projects = [
+
     {
-      title: "FACHADA IMPONENTE",
-      description: "Uma fachada de esquina linda e moderna com os elementos preferidos do nosso cliente",
-      imgUrl: projImg1,
-      alt: "Fachada recidencial esquina jayarquiteta",
+      title: "FACHADA IMPACTANTE",
+      description: "Essa fachada é o reflexo de muita dedicação e paixão. Ter um projeto é ter a certeza de que sua visão e estilo serão transformados em uma realidade palpável.",
+      imgUrl: projImg6,
+      alt: "Fachada moderna feira de santana",
     },
     {
-      title: "FACHADA ELEGANTE",
-      description: "Com poucas alterações estruturais, conseguimos fazer uma fachada moderna e extremamente elegante!",
-      imgUrl: projImg2,
-      alt: "Fachada moderna grande jayarquiteta",
-    },
-    {
-      title: "FACHADA MODERNA",
-      description: "Modernizamos esta casa unificando seus volumes e demos um toque aconchegante com acabamento amadeirado",
-      imgUrl: projImg3,
-      alt: "Fachada com planta jayarquiteta",
-    },
-    {
-      title: "FACHADA CLEAN",
-      description: "Elegância e sofisticação são as palavras que definem essa fachada",
+      title: "ÁREA GOURMET",
+      description: "Elegância e sofisticação são as palavras que definem esse projeto",
       imgUrl: projImg4,
-      alt: "Fachada moderna clean jayarquiteta",
+      alt: "Área gourmet feira de santana reforma piscina infinita moderna",
     },
     {
       title: "FACHADA PERFEITA",
       description: "Cada projeto é único, assim como cada cliente, é por isso que nossos projetos são pensados para atender as necessidades e desejos de cada cliente",
       imgUrl: projImg5,
-      alt: "Fachada moderna grande jayarquiteta",
+      alt: "Fachada moderna grande vegetação planta",
     },
     {
-      title: "FACHADA BRILHANTE",
-      description: "Projeto de reforma de fachada, com poucas intervenções estruturais resultou em um resultado incrível",
-      imgUrl: projImg6,
-      alt: "Fachada moderna jayarquiteta",
+      title: "FACHADA IMPONENTE",
+      description: "Uma fachada de esquina linda e moderna com os elementos preferidos do nosso cliente",
+      imgUrl: projImg1,
+      alt: "Fachada recidencial esquina",
     },
+    {
+      title: "FACHADA ELEGANTE",
+      description: "Com poucas alterações estruturais, conseguimos fazer uma fachada moderna e extremamente elegante!",
+      imgUrl: projImg2,
+      alt: "Fachada moderna grande",
+    },
+    {
+      title: "FACHADA MODERNA",
+      description: "Modernizamos esta casa unificando seus volumes e demos um toque aconchegante com acabamento amadeirado",
+      imgUrl: projImg3,
+      alt: "Fachada com planta",
+    },
+
+
+
   ];
 
   const projects2 = [
